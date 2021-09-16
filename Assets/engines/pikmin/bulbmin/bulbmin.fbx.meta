@@ -1,0 +1,168 @@
+fileFormatVersion: 2
+guid: 0b55ae98f76e90843ac91ec6f1de29ca
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: ago
+    100002: Armature
+    100004: asiL
+    100006: asiL_end
+    100008: asiR
+    100010: asiR_end
+    100012: body
+    100014: //RootNode
+    100016: head
+    100018: hip
+    100020: hip_end
+    100022: kamu1
+    100024: kamu1_end
+    100026: kamu2
+    100028: kamu2_end
+    100030: kamu3
+    100032: kamu3_end
+    100034: kamu4
+    100036: kamu4_end
+    100038: kamu5
+    100040: kamu5_end
+    100042: kosi
+    100044: leye
+    100046: leye_end
+    100048: Mesh_0
+    100050: regL_momo
+    100052: regL_sune
+    100054: regR_momo
+    100056: regR_sune
+    100058: reye
+    100060: reye_end
+    400000: ago
+    400002: Armature
+    400004: asiL
+    400006: asiL_end
+    400008: asiR
+    400010: asiR_end
+    400012: body
+    400014: //RootNode
+    400016: head
+    400018: hip
+    400020: hip_end
+    400022: kamu1
+    400024: kamu1_end
+    400026: kamu2
+    400028: kamu2_end
+    400030: kamu3
+    400032: kamu3_end
+    400034: kamu4
+    400036: kamu4_end
+    400038: kamu5
+    400040: kamu5_end
+    400042: kosi
+    400044: leye
+    400046: leye_end
+    400048: Mesh_0
+    400050: regL_momo
+    400052: regL_sune
+    400054: regR_momo
+    400056: regR_sune
+    400058: reye
+    400060: reye_end
+    2100000: atama_2
+    2100002: osiri_1_2
+    4300000: Mesh_0
+    7400000: Armature|attack_Armature
+    7400002: Armature|dead_Armature
+    7400004: Armature|flick_Armature
+    7400006: Armature|move1_Armature
+    7400008: Armature|rebirth_Armature
+    7400010: Armature|type1_Armature
+    7400012: Armature|type5_Armature
+    7400014: Armature|wait2_Armature
+    7400016: Armature|waitact1_Armature
+    7400018: Armature|waitact2_Armature
+    9500000: //RootNode
+    13700000: Mesh_0
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 0.01
+    hasPreviousCalculatedGlobalScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
