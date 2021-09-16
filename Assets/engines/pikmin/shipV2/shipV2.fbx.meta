@@ -1,0 +1,188 @@
+fileFormatVersion: 2
+guid: 1845f966e5677de47966fd0dbfa4857c
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: Armature
+    100002: base
+    100004: body_s
+    100006: cocpit1_cov
+    100008: cocpit1_cov_end
+    100010: cocpit2_cov
+    100012: cocpit2_cov_end
+    100014: ctr
+    100016: goal
+    100018: goal_end
+    100020: in1
+    100022: in1_end
+    100024: inexhaust
+    100026: jet_eff
+    100028: jet_eff_end
+    100030: loosy
+    100032: loosy_end
+    100034: Mesh_0
+    100036: mikeeff
+    100038: mikeeff_end
+    100040: model
+    100042: orima
+    100044: orima_end
+    100046: out
+    100048: out_end
+    100050: outexhaust
+    100052: piston3
+    100054: piston3_end
+    100056: piston4
+    100058: piston4_end
+    100060: pmotion1
+    100062: pmotion2
+    100064: pmotion3
+    100066: pmotion3_end
+    100068: pot_top
+    100070: potjnt
+    100072: rader
+    100074: rader_end
+    100076: //RootNode
+    100078: speaker
+    100080: start1
+    100082: start1_end
+    400000: Armature
+    400002: base
+    400004: body_s
+    400006: cocpit1_cov
+    400008: cocpit1_cov_end
+    400010: cocpit2_cov
+    400012: cocpit2_cov_end
+    400014: ctr
+    400016: goal
+    400018: goal_end
+    400020: in1
+    400022: in1_end
+    400024: inexhaust
+    400026: jet_eff
+    400028: jet_eff_end
+    400030: loosy
+    400032: loosy_end
+    400034: Mesh_0
+    400036: mikeeff
+    400038: mikeeff_end
+    400040: model
+    400042: orima
+    400044: orima_end
+    400046: out
+    400048: out_end
+    400050: outexhaust
+    400052: piston3
+    400054: piston3_end
+    400056: piston4
+    400058: piston4_end
+    400060: pmotion1
+    400062: pmotion2
+    400064: pmotion3
+    400066: pmotion3_end
+    400068: pot_top
+    400070: potjnt
+    400072: rader
+    400074: rader_end
+    400076: //RootNode
+    400078: speaker
+    400080: start1
+    400082: start1_end
+    2100000: body
+    2100002: cocpit1_cov1
+    2100004: cocpit1_cov2
+    2100006: light_blue_r1
+    2100008: metal
+    4300000: Mesh_0
+    7400000: Armature|pmotion1_Armature
+    7400002: Armature|pmotion2_Armature
+    7400004: Armature|pmotion3_Armature
+    7400006: Armature|suction_Armature
+    7400008: Armature|ufo_Armature
+    9500000: //RootNode
+    13700000: Mesh_0
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 0.01
+    hasPreviousCalculatedGlobalScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

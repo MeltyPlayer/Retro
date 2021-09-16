@@ -1,0 +1,1 @@
+Animation included in collada file.
