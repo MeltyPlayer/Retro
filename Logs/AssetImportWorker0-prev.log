@@ -1,0 +1,1150 @@
+Using pre-set license
+Built from '2020.2/release' branch; Version is '2020.2.0f1 (3721df5a8b28) revision 3613151'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10  (10.0.0) 64bit' Language: 'en' Physical Memory: 16299 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+ COMMAND LINE ARGUMENTS:
+M:\Program Files\Unity Hub\Editor\2020.2.0f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+R:/Documents/Unity Projects/Retro
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+51220
+Successfully changed project path to: R:/Documents/Unity Projects/Retro
+R:/Documents/Unity Projects/Retro
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 102.69 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.2.0f1 (3721df5a8b28)
+[Subsystems] Discovering subsystems at path M:/Program Files/Unity Hub/Editor/2020.2.0f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path R:/Documents/Unity Projects/Retro/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1060 6GB (ID=0x1c03)
+    Vendor:   
+    VRAM:     6052 MB
+    Driver:   30.0.14.7168
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Initialize mono
+Mono path[0] = 'M:/Program Files/Unity Hub/Editor/2020.2.0f1/Editor/Data/Managed'
+Mono path[1] = 'M:/Program Files/Unity Hub/Editor/2020.2.0f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'M:/Program Files/Unity Hub/Editor/2020.2.0f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56520
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: M:/Program Files/Unity Hub/Editor/2020.2.0f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.002542 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 102.12 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unable to find bridge dll in registry for Microsoft Visual Studio Tools for Unity for R:/Program Files (x86)/Microsoft Visual Studio/2019/Community/Common7/IDE/devenv.exe
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.202 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.004865 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 105.58 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.058 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.13 seconds
+Refreshing native plugins compatible for Editor in 2.38 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3165 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 140.6 MB.
+System memory in use after: 140.8 MB.
+
+Unloading 118 unused Assets to reduce memory usage. Loaded Objects now: 3592.
+Total: 8.208200 ms (FindLiveObjects: 1.477600 ms CreateObjectMapping: 0.232700 ms MarkObjects: 5.641700 ms  DeleteObjects: 0.854300 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/Samples/ProBuilder/4.4.0/Universal Render Pipeline Support
+  artifactKey: Guid(9324b8dfca3191e4fa1479ae8d18eca1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/ProBuilder/4.4.0/Universal Render Pipeline Support using Guid(9324b8dfca3191e4fa1479ae8d18eca1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c4a0f58d3a4af5bc4b92985d0471852e') in 0.047579 seconds
+  Import took 0.057611 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.185299 seconds.
+  path: Assets/engines/pikmin/awakening wood/0419_01.png
+  artifactKey: Guid(e87cfe43301fe0d4fbf0fbebe041d582) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/engines/pikmin/awakening wood/0419_01.png using Guid(e87cfe43301fe0d4fbf0fbebe041d582) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7441e6d999860177af048649404c1df2') in 0.245643 seconds
+  Import took 0.252470 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000398 seconds.
+  path: Assets/engines/pikmin/awakening wood/ha01.png
+  artifactKey: Guid(10bda3d85057c784398c0b1fd885a738) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/engines/pikmin/awakening wood/ha01.png using Guid(10bda3d85057c784398c0b1fd885a738) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a4b55d39fbaf0a1595f1d272b8cb318') in 0.019937 seconds
+  Import took 0.026488 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000428 seconds.
+  path: Assets/engines/pikmin/awakening wood/nuki_kusa00.png
+  artifactKey: Guid(7fc4ed784701a7a4991b1a133467bf7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/engines/pikmin/awakening wood/nuki_kusa00.png using Guid(7fc4ed784701a7a4991b1a133467bf7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac8da0f8d2ee04687d9ef431ce722f49') in 0.050085 seconds
+  Import took 0.058484 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000491 seconds.
+  path: Assets/engines/pikmin/awakening wood/ha03.png
+  artifactKey: Guid(0024beb0532fee6479d572cc90e42d39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/engines/pikmin/awakening wood/ha03.png using Guid(0024beb0532fee6479d572cc90e42d39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6189a8e6c62a3676a9ffd2c895c89515') in 0.014901 seconds
+  Import took 0.023524 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000433 seconds.
+  path: Assets/engines/pikmin/awakening wood/0822_01b.png
+  artifactKey: Guid(e272350ce13997a4aa5a4ecd1120b0ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/engines/pikmin/awakening wood/0822_01b.png using Guid(e272350ce13997a4aa5a4ecd1120b0ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f860b6423d5c4c2024f559c7f69f9fd') in 0.046275 seconds
+  Import took 0.055563 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000326 seconds.
+  path: Assets/engines/pikmin/awakening wood/light_8ia.png
+  artifactKey: Guid(1e2fbe406a845ac48bbdf6bb329e3099) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/engines/pikmin/awakening wood/light_8ia.png using Guid(1e2fbe406a845ac48bbdf6bb329e3099) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd67aa8428ad7a9e35809fbef95ff5272') in 0.040842 seconds
+  Import took 0.048113 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000498 seconds.
+  path: Assets/engines/pikmin/awakening wood/0427_08.png
+  artifactKey: Guid(3fc00ce3e61ed464fa3b68fdebb2a160) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/engines/pikmin/awakening wood/0427_08.png using Guid(3fc00ce3e61ed464fa3b68fdebb2a160) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9af7b81e9536ae0c8276fe1d3fe6eee') in 0.043153 seconds
+  Import took 0.050237 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000329 seconds.
+  path: Assets/engines/pikmin/awakening wood/moya_8i.png
+  artifactKey: Guid(1e8a41fd24f4a974bb94bec18c56c775) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/engines/pikmin/awakening wood/moya_8i.png using Guid(1e8a41fd24f4a974bb94bec18c56c775) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a5b339e56b683dc309c2ec9388b780d') in 0.044813 seconds
+  Import took 0.051347 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000332 seconds.
+  path: Assets/engines/pikmin/awakening wood/ref00.png
+  artifactKey: Guid(443082f2bb032284889c2febf5677c29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/engines/pikmin/awakening wood/ref00.png using Guid(443082f2bb032284889c2febf5677c29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6814aba74214a5d87c7d76fad7b71945') in 0.039486 seconds
+  Import took 0.046071 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000347 seconds.
+  path: Assets/engines/pikmin/awakening wood/kusa_tuchi_00.png
+  artifactKey: Guid(97eb07aa2abbbef4eaf3719bfb083d09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/engines/pikmin/awakening wood/kusa_tuchi_00.png using Guid(97eb07aa2abbbef4eaf3719bfb083d09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd2c5ff3c4fb96d4bfc00760ba95b7d76') in 0.043057 seconds
+  Import took 0.050111 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000377 seconds.
+  path: Assets/engines/pikmin/awakening wood/ha06.png
+  artifactKey: Guid(c4629a65fd03d9647a0a3012e1767481) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/engines/pikmin/awakening wood/ha06.png using Guid(c4629a65fd03d9647a0a3012e1767481) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cfe15003ad670b80df445c70a3e12f92') in 0.010933 seconds
+  Import took 0.016450 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000374 seconds.
+  path: Assets/engines/pikmin/awakening wood/0802_07.png
+  artifactKey: Guid(b14c60ed25940694789f75acec018ed9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/engines/pikmin/awakening wood/0802_07.png using Guid(b14c60ed25940694789f75acec018ed9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79061c235e3c03380086711ad995e0b3') in 0.043220 seconds
+  Import took 0.048992 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000357 seconds.
+  path: Assets/engines/pikmin/awakening wood/0427_15.png
+  artifactKey: Guid(179bfcb64fe6cdc41ad8746d231e6848) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/engines/pikmin/awakening wood/0427_15.png using Guid(179bfcb64fe6cdc41ad8746d231e6848) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9c86b986975340a18443cd5e1d9930b') in 0.043535 seconds
+  Import took 0.050168 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000348 seconds.
+  path: Assets/engines/pikmin/awakening wood/take00.png
+  artifactKey: Guid(74975734a8d825a4490948d63a2c2d3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/engines/pikmin/awakening wood/take00.png using Guid(74975734a8d825a4490948d63a2c2d3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b69094cc1ed992dc94dc1d9d0085e963') in 0.043221 seconds
+  Import took 0.048980 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000335 seconds.
+  path: Assets/engines/pikmin/awakening wood/0420_03.png
+  artifactKey: Guid(7c3a27ef3b6b40c4a8a439fd740e3b6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/engines/pikmin/awakening wood/0420_03.png using Guid(7c3a27ef3b6b40c4a8a439fd740e3b6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '02f2a47feee77891e490a13c6e6f08eb') in 0.042913 seconds
+  Import took 0.049237 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000350 seconds.
+  path: Assets/engines/pikmin/awakening wood/0822_04.png
+  artifactKey: Guid(b7af4f03bb6448343af6072f3659bba0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/engines/pikmin/awakening wood/0822_04.png using Guid(b7af4f03bb6448343af6072f3659bba0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f7fe814919c4c611501db53d180174ea') in 0.040409 seconds
+  Import took 0.046431 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000375 seconds.
+  path: Assets/engines/pikmin/awakening wood/take_re00.png
+  artifactKey: Guid(57f9fafec695e09478af4d86559a8408) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/engines/pikmin/awakening wood/take_re00.png using Guid(57f9fafec695e09478af4d86559a8408) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be1157add56de4d1d095c2a3f56b7b35') in 0.046526 seconds
+  Import took 0.053288 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000357 seconds.
+  path: Assets/engines/pikmin/awakening wood/0419_01.png
+  artifactKey: Guid(e87cfe43301fe0d4fbf0fbebe041d582) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/engines/pikmin/awakening wood/0419_01.png using Guid(e87cfe43301fe0d4fbf0fbebe041d582) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7441e6d999860177af048649404c1df2') in 0.042154 seconds
+  Import took 0.048353 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000385 seconds.
+  path: Assets/engines/pikmin/awakening wood/ha04.png
+  artifactKey: Guid(793a4616e8819c942b57d565ac204a71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/engines/pikmin/awakening wood/ha04.png using Guid(793a4616e8819c942b57d565ac204a71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aab684cf5d93bd713d7a59c7cb824268') in 0.012138 seconds
+  Import took 0.018744 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000405 seconds.
+  path: Assets/engines/pikmin/awakening wood/p3_wall02.png
+  artifactKey: Guid(50374443fa3ddef49a640c157e582776) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/engines/pikmin/awakening wood/p3_wall02.png using Guid(50374443fa3ddef49a640c157e582776) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd372708a6bdf86f36eeac61b23574d08') in 0.040977 seconds
+  Import took 0.047220 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000396 seconds.
+  path: Assets/engines/pikmin/awakening wood/hanabira_sakura.png
+  artifactKey: Guid(7ea62ccaeeba0454aac4450e1cc83013) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/engines/pikmin/awakening wood/hanabira_sakura.png using Guid(7ea62ccaeeba0454aac4450e1cc83013) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'acf0129ecedf032629afd0550067115b') in 0.042857 seconds
+  Import took 0.049679 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000437 seconds.
+  path: Assets/engines/pikmin/awakening wood/0427_16.png
+  artifactKey: Guid(10cc80746f261b24cbed92f9cf31585a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/engines/pikmin/awakening wood/0427_16.png using Guid(10cc80746f261b24cbed92f9cf31585a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '30c8d48e6a7faa020058d671c1c139a8') in 0.045381 seconds
+  Import took 0.051751 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000363 seconds.
+  path: Assets/engines/pikmin/awakening wood/tile00.png
+  artifactKey: Guid(47a4cc6404a9e114095f83ab5389e536) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/engines/pikmin/awakening wood/tile00.png using Guid(47a4cc6404a9e114095f83ab5389e536) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26d21d582177de1c67a79dedef79e864') in 0.042385 seconds
+  Import took 0.048331 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000391 seconds.
+  path: Assets/engines/pikmin/awakening wood/kage04.png
+  artifactKey: Guid(a487823c0973ba14f866aae0126a1840) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/engines/pikmin/awakening wood/kage04.png using Guid(a487823c0973ba14f866aae0126a1840) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e482384e92b28a28d578c3ce37d96147') in 0.044374 seconds
+  Import took 0.051787 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000382 seconds.
+  path: Assets/engines/pikmin/awakening wood/roof_kage00.png
+  artifactKey: Guid(07844d3a113784f40b02149bb1b50ff9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/engines/pikmin/awakening wood/roof_kage00.png using Guid(07844d3a113784f40b02149bb1b50ff9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '11ed6ba8ba9b7884f311f365675aeae1') in 0.047707 seconds
+  Import took 0.054786 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000353 seconds.
+  path: Assets/engines/pikmin/awakening wood/sara01.png
+  artifactKey: Guid(3d8f065d007d3c040b70ac96f3b6ef3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/engines/pikmin/awakening wood/sara01.png using Guid(3d8f065d007d3c040b70ac96f3b6ef3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ef14ff0fd0eb6d74bc5bded69c34a7f') in 0.044206 seconds
+  Import took 0.053895 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000572 seconds.
+  path: Assets/engines/pikmin/awakening wood/0426_17.png
+  artifactKey: Guid(e03b532cd9621de42990cf956a018731) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/engines/pikmin/awakening wood/0426_17.png using Guid(e03b532cd9621de42990cf956a018731) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a0b66b92b21f3f9058d9793f0c10b4d') in 0.041369 seconds
+  Import took 0.047741 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000395 seconds.
+  path: Assets/engines/pikmin/awakening wood/0731_03.png
+  artifactKey: Guid(58335ddc63733754890b7050b5ec8dca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/engines/pikmin/awakening wood/0731_03.png using Guid(58335ddc63733754890b7050b5ec8dca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4fe2a916107987e27394a7195f8d7516') in 0.040027 seconds
+  Import took 0.045878 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.692632 seconds.
+  path: Assets/engines/pikmin/awakening wood/tile00m.png
+  artifactKey: Guid(5cd56e104b038414884ed7d19bd685a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/engines/pikmin/awakening wood/tile00m.png using Guid(5cd56e104b038414884ed7d19bd685a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '66b1f18814b327394145dd3e8efc7024') in 0.039956 seconds
+  Import took 0.047023 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000410 seconds.
+  path: Assets/engines/pikmin/awakening wood/uekibachi00.png
+  artifactKey: Guid(7fc75d5221f97cb4b9ccdd784a644a2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/engines/pikmin/awakening wood/uekibachi00.png using Guid(7fc75d5221f97cb4b9ccdd784a644a2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0cdc3dea216809395218f619658ff616') in 0.043344 seconds
+  Import took 0.050182 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000356 seconds.
+  path: Assets/engines/pikmin/awakening wood/tile00m.png
+  artifactKey: Guid(5cd56e104b038414884ed7d19bd685a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/engines/pikmin/awakening wood/tile00m.png using Guid(5cd56e104b038414884ed7d19bd685a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '66b1f18814b327394145dd3e8efc7024') in 0.059163 seconds
+  Import took 0.066609 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000382 seconds.
+  path: Assets/engines/pikmin/awakening wood/tsumiIsi00.png
+  artifactKey: Guid(4526b30e9531b664f847b6c5aa9c39f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/engines/pikmin/awakening wood/tsumiIsi00.png using Guid(4526b30e9531b664f847b6c5aa9c39f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31d283e4e582d38e1f9ce149a057181d') in 0.045800 seconds
+  Import took 0.054876 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000413 seconds.
+  path: Assets/engines/pikmin/awakening wood/zukan02.png
+  artifactKey: Guid(0356797d1aa5a944398ed6e2907204da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/engines/pikmin/awakening wood/zukan02.png using Guid(0356797d1aa5a944398ed6e2907204da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '52ed2ebe6602744d1721bc5fd6b957b6') in 0.040727 seconds
+  Import took 0.047058 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 195.837831 seconds.
+  path: Assets/engines/pikmin/bulborb/bulborb.fbx
+  artifactKey: Guid(0b55ae98f76e90843ac91ec6f1de29ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/engines/pikmin/bulborb/bulborb.fbx using Guid(0b55ae98f76e90843ac91ec6f1de29ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6fc1be6d8acc96dc0371b94d5b166c2e') in 0.469365 seconds
+  Import took 0.477002 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000324 seconds.
+  path: Assets/engines/pikmin/bulborb/swallow_dummy_i4.png
+  artifactKey: Guid(2f5be22cec070c74a9fa38d8235bab78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/engines/pikmin/bulborb/swallow_dummy_i4.png using Guid(2f5be22cec070c74a9fa38d8235bab78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e0460a6adf34ea6e774ebc9efa4c6f18') in 0.039074 seconds
+  Import took 0.044826 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000832 seconds.
+  path: Assets/engines/pikmin/bulborb/moyou_dummy_i4.mat
+  artifactKey: Guid(d49ea45fbef51bd43acb4212c93eb3e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/engines/pikmin/bulborb/moyou_dummy_i4.mat using Guid(d49ea45fbef51bd43acb4212c93eb3e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '06c606762d33a3031405a251d4d0269d') in 0.051720 seconds
+  Import took 0.058951 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000394 seconds.
+  path: Assets/engines/pikmin/bulborb/moyou_dummy_i4.png
+  artifactKey: Guid(3b9d2709fc9bb8b43b0e81cbbe10f6f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/engines/pikmin/bulborb/moyou_dummy_i4.png using Guid(3b9d2709fc9bb8b43b0e81cbbe10f6f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8497fb60f710ecee492f3985dd2af983') in 0.040730 seconds
+  Import took 0.047387 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000344 seconds.
+  path: Assets/engines/pikmin/bulborb/swallow_dummy_i4.mat
+  artifactKey: Guid(897ba9d993015a248a6decff1a378429) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/engines/pikmin/bulborb/swallow_dummy_i4.mat using Guid(897ba9d993015a248a6decff1a378429) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95f3b9f89026fe9b046e1fe67fa0fc1e') in 0.046977 seconds
+  Import took 0.053182 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000486 seconds.
+  path: Assets/engines/pikmin/bulborb/moyou_dummy_i4.png
+  artifactKey: Guid(3b9d2709fc9bb8b43b0e81cbbe10f6f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/engines/pikmin/bulborb/moyou_dummy_i4.png using Guid(3b9d2709fc9bb8b43b0e81cbbe10f6f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8497fb60f710ecee492f3985dd2af983') in 0.041614 seconds
+  Import took 0.048195 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004047 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.12 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.075 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 1.21 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3035 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 150.7 MB.
+System memory in use after: 150.9 MB.
+
+Unloading 109 unused Assets to reduce memory usage. Loaded Objects now: 3683.
+Total: 4.596200 ms (FindLiveObjects: 0.598200 ms CreateObjectMapping: 0.169100 ms MarkObjects: 3.428600 ms  DeleteObjects: 0.398500 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003947 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.11 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.444 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 1.11 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3035 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 150.7 MB.
+System memory in use after: 150.9 MB.
+
+Unloading 109 unused Assets to reduce memory usage. Loaded Objects now: 3685.
+Total: 9.461100 ms (FindLiveObjects: 1.735900 ms CreateObjectMapping: 0.870200 ms MarkObjects: 6.587800 ms  DeleteObjects: 0.261000 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 16.575425 seconds.
+  path: Assets/engines/pikmin/bulborb/moyou_dummy_i4.png
+  artifactKey: Guid(3b9d2709fc9bb8b43b0e81cbbe10f6f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/engines/pikmin/bulborb/moyou_dummy_i4.png using Guid(3b9d2709fc9bb8b43b0e81cbbe10f6f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '99d1dc5ace5ecd3343e256ace84f00e0') in 0.080452 seconds
+  Import took 0.089779 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003993 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.05 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.834 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 1.01 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.02 ms.
+Unloading 2689 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 143.0 MB.
+System memory in use after: 143.2 MB.
+
+Unloading 26 unused Assets to reduce memory usage. Loaded Objects now: 3686.
+Total: 4.659500 ms (FindLiveObjects: 0.667600 ms CreateObjectMapping: 0.192500 ms MarkObjects: 3.700600 ms  DeleteObjects: 0.097500 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 52.568721 seconds.
+  path: Assets/engines/pikmin/bulborb/moyou_dummy_i4.png
+  artifactKey: Guid(3b9d2709fc9bb8b43b0e81cbbe10f6f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/engines/pikmin/bulborb/moyou_dummy_i4.png using Guid(3b9d2709fc9bb8b43b0e81cbbe10f6f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a3be4b3dfbd8e2db6dc758b716823fb1') in 0.075472 seconds
+  Import took 0.082347 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003923 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.97 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.937 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 1.07 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3035 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 150.8 MB.
+System memory in use after: 151.0 MB.
+
+Unloading 109 unused Assets to reduce memory usage. Loaded Objects now: 3689.
+Total: 5.523300 ms (FindLiveObjects: 0.742200 ms CreateObjectMapping: 0.216800 ms MarkObjects: 4.275600 ms  DeleteObjects: 0.286400 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 308.632292 seconds.
+  path: Assets/engines/pikmin/onion/Onion nest.obj
+  artifactKey: Guid(a55cb0a15ffe5ed48be84077d7131847) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/engines/pikmin/onion/Onion nest.obj using Guid(a55cb0a15ffe5ed48be84077d7131847) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '787506f5d1d6c4c727ce757c0cfd99c0') in 0.332548 seconds
+  Import took 0.341843 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000439 seconds.
+  path: Assets/engines/pikmin/onion/onion3.png
+  artifactKey: Guid(0752cf50ad030af42a8d623525631f83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/engines/pikmin/onion/onion3.png using Guid(0752cf50ad030af42a8d623525631f83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f0b1e0b7104c9c0b0f827c60c318df2a') in 0.046505 seconds
+  Import took 0.052186 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000362 seconds.
+  path: Assets/engines/pikmin/onion/onion_red.png
+  artifactKey: Guid(467a0013ee7872d4c8dae6024a7ee230) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/engines/pikmin/onion/onion_red.png using Guid(467a0013ee7872d4c8dae6024a7ee230) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac222b676d54cafee2f2f957e1d89c9f') in 0.038651 seconds
+  Import took 0.045403 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000349 seconds.
+  path: Assets/engines/pikmin/onion/onion_yellow.png
+  artifactKey: Guid(8ae9b4dbddb4aeb43b0604a3f0bd8f91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/engines/pikmin/onion/onion_yellow.png using Guid(8ae9b4dbddb4aeb43b0604a3f0bd8f91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '824aebb4342d5cf51eb7b53cd4fd6ea8') in 0.045064 seconds
+  Import took 0.052729 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000342 seconds.
+  path: Assets/engines/pikmin/onion/onion_white.png
+  artifactKey: Guid(42c6fab6394b44b4099dcbd47685f120) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/engines/pikmin/onion/onion_white.png using Guid(42c6fab6394b44b4099dcbd47685f120) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c415f9e5d4ffd29fe57457c3cc4e00f7') in 0.066215 seconds
+  Import took 0.075298 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000536 seconds.
+  path: Assets/engines/pikmin/onion/onion2.png
+  artifactKey: Guid(1f29ffd62b4a0e44b8bf108298d9c1ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/engines/pikmin/onion/onion2.png using Guid(1f29ffd62b4a0e44b8bf108298d9c1ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b073477ba7430a602d58fce316ebf18') in 0.052713 seconds
+  Import took 0.061072 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000406 seconds.
+  path: Assets/engines/pikmin/onion/onion_blue.png
+  artifactKey: Guid(73603d6a0a8355f449c12f42b7a3432a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/engines/pikmin/onion/onion_blue.png using Guid(73603d6a0a8355f449c12f42b7a3432a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd66f56459965da48f1621bc9ee185073') in 0.043574 seconds
+  Import took 0.053588 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000443 seconds.
+  path: Assets/engines/pikmin/onion/onion1.png
+  artifactKey: Guid(b9e0d52c20d1cbc4db032f8dbeab59ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/engines/pikmin/onion/onion1.png using Guid(b9e0d52c20d1cbc4db032f8dbeab59ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '588cecadcdf61bc33deec8eaa86cf5b7') in 0.041103 seconds
+  Import took 0.047288 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 143.192798 seconds.
+  path: Assets/engines/pikmin/awakening wood/awakening wood Variant.prefab
+  artifactKey: Guid(3b32d2af8eb35664a972de604eba8336) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/engines/pikmin/awakening wood/awakening wood Variant.prefab using Guid(3b32d2af8eb35664a972de604eba8336) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad57dfc8cb3901188eea937a00067cc5') in 0.103709 seconds
+  Import took 0.112259 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 132.850788 seconds.
+  path: Assets/engines/pikmin/shipV1/S.S._Dolphin.dae
+  artifactKey: Guid(9eb2c0c50ea44134189193e2d889e96e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/engines/pikmin/shipV1/S.S._Dolphin.dae using Guid(9eb2c0c50ea44134189193e2d889e96e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Error assigning CUBE texture to 2D texture property '_MainTex': Dimensions must match
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.Rendering.ScriptableRenderContext:Internal_Cull (UnityEngine.Rendering.ScriptableCullingParameters&,UnityEngine.Rendering.ScriptableRenderContext,intptr)
+UnityEngine.Rendering.ScriptableRenderContext:Cull (UnityEngine.Rendering.ScriptableCullingParameters&)
+UnityEngine.Rendering.Universal.UniversalRenderPipeline:RenderSingleCamera (UnityEngine.Rendering.ScriptableRenderContext,UnityEngine.Rendering.Universal.CameraData,bool) (at Library/PackageCache/com.unity.render-pipelines.universal@10.2.2/Runtime/UniversalRenderPipeline.cs:367)
+UnityEngine.Rendering.Universal.UniversalRenderPipeline:RenderSingleCamera (UnityEngine.Rendering.ScriptableRenderContext,UnityEngine.Camera) (at Library/PackageCache/com.unity.render-pipelines.universal@10.2.2/Runtime/UniversalRenderPipeline.cs:296)
+UnityEngine.Rendering.Universal.UniversalRenderPipeline:Render (UnityEngine.Rendering.ScriptableRenderContext,UnityEngine.Camera[]) (at Library/PackageCache/com.unity.render-pipelines.universal@10.2.2/Runtime/UniversalRenderPipeline.cs:251)
+UnityEngine.Rendering.RenderPipeline:InternalRender (UnityEngine.Rendering.ScriptableRenderContext,UnityEngine.Camera[])
+UnityEngine.Rendering.RenderPipelineManager:DoRenderLoop_Internal (UnityEngine.Rendering.RenderPipelineAsset,intptr,System.Collections.Generic.List`1<UnityEngine.Camera/RenderRequest>,Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle)
+UnityEditor.PreviewRenderUtility:Render (bool,bool)
+UnityEditor.GameObjectInspector:DoRenderPreview ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[Library/PackageCache/com.unity.render-pipelines.universal@10.2.2/Runtime/UniversalRenderPipeline.cs line 367]
+
+Error assigning CUBE texture to 2D texture property '_MainTex': Dimensions must match
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.Rendering.ScriptableRenderContext:Internal_Cull (UnityEngine.Rendering.ScriptableCullingParameters&,UnityEngine.Rendering.ScriptableRenderContext,intptr)
+UnityEngine.Rendering.ScriptableRenderContext:Cull (UnityEngine.Rendering.ScriptableCullingParameters&)
+UnityEngine.Rendering.Universal.UniversalRenderPipeline:RenderSingleCamera (UnityEngine.Rendering.ScriptableRenderContext,UnityEngine.Rendering.Universal.CameraData,bool) (at Library/PackageCache/com.unity.render-pipelines.universal@10.2.2/Runtime/UniversalRenderPipeline.cs:367)
+UnityEngine.Rendering.Universal.UniversalRenderPipeline:RenderSingleCamera (UnityEngine.Rendering.ScriptableRenderContext,UnityEngine.Camera) (at Library/PackageCache/com.unity.render-pipelines.universal@10.2.2/Runtime/UniversalRenderPipeline.cs:296)
+UnityEngine.Rendering.Universal.UniversalRenderPipeline:Render (UnityEngine.Rendering.ScriptableRenderContext,UnityEngine.Camera[]) (at Library/PackageCache/com.unity.render-pipelines.universal@10.2.2/Runtime/UniversalRenderPipeline.cs:251)
+UnityEngine.Rendering.RenderPipeline:InternalRender (UnityEngine.Rendering.ScriptableRenderContext,UnityEngine.Camera[])
+UnityEngine.Rendering.RenderPipelineManager:DoRenderLoop_Internal (UnityEngine.Rendering.RenderPipelineAsset,intptr,System.Collections.Generic.List`1<UnityEngine.Camera/RenderRequest>,Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle)
+UnityEditor.PreviewRenderUtility:Render (bool,bool)
+UnityEditor.GameObjectInspector:DoRenderPreview ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[Library/PackageCache/com.unity.render-pipelines.universal@10.2.2/Runtime/UniversalRenderPipeline.cs line 367]
+
+ -> (artifact id: 'daa39484534e9bebe09835c74d6e79d5') in 1.551269 seconds
+  Import took 1.617827 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.842158 seconds.
+  path: Assets/engines/pikmin/awakening wood/awakening wood Variant.prefab
+  artifactKey: Guid(3b32d2af8eb35664a972de604eba8336) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/engines/pikmin/awakening wood/awakening wood Variant.prefab using Guid(3b32d2af8eb35664a972de604eba8336) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ff8946f324a2c237da0e43430812887') in 0.075320 seconds
+  Import took 0.083104 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 57.316706 seconds.
+  path: Assets/engines/pikmin/awakening wood/awakening wood Variant.prefab
+  artifactKey: Guid(3b32d2af8eb35664a972de604eba8336) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/engines/pikmin/awakening wood/awakening wood Variant.prefab using Guid(3b32d2af8eb35664a972de604eba8336) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f4ec8b192001124ce1750ab5263a3b27') in 0.055479 seconds
+  Import took 0.064392 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 29.886782 seconds.
+  path: Assets/engines/pikmin/awakening wood/awakening wood Variant.prefab
+  artifactKey: Guid(3b32d2af8eb35664a972de604eba8336) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/engines/pikmin/awakening wood/awakening wood Variant.prefab using Guid(3b32d2af8eb35664a972de604eba8336) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9bba6b9ee5b229bccf93cfd4a77d3d2f') in 0.304242 seconds
+  Import took 0.311806 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 28.356067 seconds.
+  path: Assets/engines/pikmin/awakening wood/awakening wood Variant.prefab
+  artifactKey: Guid(3b32d2af8eb35664a972de604eba8336) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/engines/pikmin/awakening wood/awakening wood Variant.prefab using Guid(3b32d2af8eb35664a972de604eba8336) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ccf78bb63529128a3202e9d3bc32c8bd') in 0.364720 seconds
+  Import took 0.372498 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 24.332614 seconds.
+  path: Assets/engines/pikmin/awakening wood/awakening wood Variant.prefab
+  artifactKey: Guid(3b32d2af8eb35664a972de604eba8336) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/engines/pikmin/awakening wood/awakening wood Variant.prefab using Guid(3b32d2af8eb35664a972de604eba8336) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5893ef0a1c84f35eb32896ef2c169cd9') in 0.289330 seconds
+  Import took 0.297332 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 21.006363 seconds.
+  path: Assets/engines/pikmin/awakening wood/awakening wood Variant.prefab
+  artifactKey: Guid(3b32d2af8eb35664a972de604eba8336) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/engines/pikmin/awakening wood/awakening wood Variant.prefab using Guid(3b32d2af8eb35664a972de604eba8336) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b0f1965ce047c87b65f791501d8b12a3') in 0.298327 seconds
+  Import took 0.305909 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 12.948154 seconds.
+  path: Assets/engines/pikmin/awakening wood/awakening wood Variant.prefab
+  artifactKey: Guid(3b32d2af8eb35664a972de604eba8336) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/engines/pikmin/awakening wood/awakening wood Variant.prefab using Guid(3b32d2af8eb35664a972de604eba8336) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '49707d22791c9752c31799d5adff9464') in 0.304173 seconds
+  Import took 0.310762 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 39.077969 seconds.
+  path: Assets/engines/pikmin/awakening wood/awakening wood Variant.prefab
+  artifactKey: Guid(3b32d2af8eb35664a972de604eba8336) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/engines/pikmin/awakening wood/awakening wood Variant.prefab using Guid(3b32d2af8eb35664a972de604eba8336) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '19bdbcb9a0664ce7627c785c8671ddab') in 0.314308 seconds
+  Import took 0.321307 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 219.447709 seconds.
+  path: Assets/engines/pikmin/awakening wood/awakening wood Variant.prefab
+  artifactKey: Guid(3b32d2af8eb35664a972de604eba8336) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/engines/pikmin/awakening wood/awakening wood Variant.prefab using Guid(3b32d2af8eb35664a972de604eba8336) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14257e4ef534b891931075415a80f957') in 0.075081 seconds
+  Import took 0.084032 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 19.487183 seconds.
+  path: Assets/engines/pikmin/awakening wood/awakening wood Variant.prefab
+  artifactKey: Guid(3b32d2af8eb35664a972de604eba8336) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/engines/pikmin/awakening wood/awakening wood Variant.prefab using Guid(3b32d2af8eb35664a972de604eba8336) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3cced9eefbf7f1850488dc8369056772') in 0.083139 seconds
+  Import took 0.091073 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 118.187785 seconds.
+  path: Assets/engines/pikmin/awakening wood/New Material.mat
+  artifactKey: Guid(b96abb92224d1db44b2e5f5eab7047df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/engines/pikmin/awakening wood/New Material.mat using Guid(b96abb92224d1db44b2e5f5eab7047df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b81cf9197cb1919a9942dbb09bbe3e0') in 0.054301 seconds
+  Import took 0.062354 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.335955 seconds.
+  path: Assets/engines/pikmin/shipV2/cockpit_kankyou_565.png
+  artifactKey: Guid(1a5345063c7a38147a5cfb214838b26f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/engines/pikmin/shipV2/cockpit_kankyou_565.png using Guid(1a5345063c7a38147a5cfb214838b26f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b5deccc06fbce35b8f42f5fa7368140') in 0.089741 seconds
+  Import took 0.100828 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001383 seconds.
+  path: Assets/engines/pikmin/shipV2/metal_sabi_s3tc.png
+  artifactKey: Guid(264cae3021e09454bab836aa97717a4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/engines/pikmin/shipV2/metal_sabi_s3tc.png using Guid(264cae3021e09454bab836aa97717a4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '018403e561c67bb3be679204c09a8c99') in 0.064308 seconds
+  Import took 0.072866 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000418 seconds.
+  path: Assets/engines/pikmin/shipV1/ss_yellow.png
+  artifactKey: Guid(ceb8e664f553d264abdcd144ca925da7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/engines/pikmin/shipV1/ss_yellow.png using Guid(ceb8e664f553d264abdcd144ca925da7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '115073609280582d06d2f2f5945ef172') in 0.050474 seconds
+  Import took 0.064268 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000381 seconds.
+  path: Assets/engines/pikmin/shipV1/ss_red_orange.png
+  artifactKey: Guid(dd9e09b3c02ae1a4b8fc0462046ad558) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/engines/pikmin/shipV1/ss_red_orange.png using Guid(dd9e09b3c02ae1a4b8fc0462046ad558) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '368f46586925f95765497019b361b488') in 0.044899 seconds
+  Import took 0.051905 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000367 seconds.
+  path: Assets/engines/pikmin/shipV1/ss_light_blue.png
+  artifactKey: Guid(fc38d1b342912d44f89a21234284335c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/engines/pikmin/shipV1/ss_light_blue.png using Guid(fc38d1b342912d44f89a21234284335c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c67016affd9436e3fe25fa43600bab2') in 0.039511 seconds
+  Import took 0.046037 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000422 seconds.
+  path: Assets/engines/pikmin/shipV1/ss_pbh.png
+  artifactKey: Guid(9fce5e25949677c4fb9410b8cb48f1f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/engines/pikmin/shipV1/ss_pbh.png using Guid(9fce5e25949677c4fb9410b8cb48f1f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73198ec8d5e28ae4c0feb2f62100a02a') in 0.041217 seconds
+  Import took 0.049782 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000396 seconds.
+  path: Assets/engines/pikmin/shipV1/ss_canopy.png
+  artifactKey: Guid(a2b7a42b682837242aaaa7d7b93d44b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/engines/pikmin/shipV1/ss_canopy.png using Guid(a2b7a42b682837242aaaa7d7b93d44b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '717ef56da16719ba3cd6d2c742deb9ec') in 0.039037 seconds
+  Import took 0.048685 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000400 seconds.
+  path: Assets/engines/pikmin/shipV1/strip_6.png
+  artifactKey: Guid(bf081016d3502d94c93cdaa88d3e8f5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/engines/pikmin/shipV1/strip_6.png using Guid(bf081016d3502d94c93cdaa88d3e8f5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d3901350e02df6cb5e0326b7dc212d3') in 0.046773 seconds
+  Import took 0.055223 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000430 seconds.
+  path: Assets/engines/pikmin/shipV1/ss_dark_red.png
+  artifactKey: Guid(b0eb9f7950068524e83e1bd0931500a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/engines/pikmin/shipV1/ss_dark_red.png using Guid(b0eb9f7950068524e83e1bd0931500a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe173e97d9b6b84e8f137e97bcca2f46') in 0.043288 seconds
+  Import took 0.050012 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000400 seconds.
+  path: Assets/engines/pikmin/shipV1/ss_vanilla.png
+  artifactKey: Guid(6fcd2c5c231306142bb092864d0cb862) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/engines/pikmin/shipV1/ss_vanilla.png using Guid(6fcd2c5c231306142bb092864d0cb862) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cdff94117b363351ff8e11102337a18c') in 0.040556 seconds
+  Import took 0.046845 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000397 seconds.
+  path: Assets/engines/pikmin/shipV1/ss_meter_O.png
+  artifactKey: Guid(2baf1ef57045db54a990ef28987d422a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/engines/pikmin/shipV1/ss_meter_O.png using Guid(2baf1ef57045db54a990ef28987d422a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c6d929c1cd14c61e72a55ce67e983624') in 0.047500 seconds
+  Import took 0.053917 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000304 seconds.
+  path: Assets/engines/pikmin/shipV1/ss_1.png
+  artifactKey: Guid(8bafb359550d758419ba45d88c0be69e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/engines/pikmin/shipV1/ss_1.png using Guid(8bafb359550d758419ba45d88c0be69e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '591aaf7914fa2ae0202bf738edb369dd') in 0.014324 seconds
+  Import took 0.024001 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000410 seconds.
+  path: Assets/engines/pikmin/shipV2/sabi_mask_i4.png
+  artifactKey: Guid(3791ff1f47955434f871596768e0c3e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/engines/pikmin/shipV2/sabi_mask_i4.png using Guid(3791ff1f47955434f871596768e0c3e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70c3349a8a8c1793960bc303cfe25d91') in 0.049352 seconds
+  Import took 0.056685 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000475 seconds.
+  path: Assets/engines/pikmin/shipV2/cockpit_kankyou_565.png
+  artifactKey: Guid(1a5345063c7a38147a5cfb214838b26f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/engines/pikmin/shipV2/cockpit_kankyou_565.png using Guid(1a5345063c7a38147a5cfb214838b26f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b5deccc06fbce35b8f42f5fa7368140') in 0.049168 seconds
+  Import took 0.057583 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000341 seconds.
+  path: Assets/engines/pikmin/shipV1/ss_ship_wheel.png
+  artifactKey: Guid(56b6bc1dc48053040b49d08680e60d60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/engines/pikmin/shipV1/ss_ship_wheel.png using Guid(56b6bc1dc48053040b49d08680e60d60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dddeee6e73d993e851f98de3976afb7f') in 0.040493 seconds
+  Import took 0.048437 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000471 seconds.
+  path: Assets/engines/pikmin/shipV1/ss_dark_blue.png
+  artifactKey: Guid(ea2817a8beeebfa479d630f6170ee396) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/engines/pikmin/shipV1/ss_dark_blue.png using Guid(ea2817a8beeebfa479d630f6170ee396) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9aabf9b417999dcaafbca818e04641f4') in 0.040448 seconds
+  Import took 0.048165 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000581 seconds.
+  path: Assets/engines/pikmin/shipV1/ss_outer_light_blue.png
+  artifactKey: Guid(96cbdbb687002d14caf574caf762f885) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/engines/pikmin/shipV1/ss_outer_light_blue.png using Guid(96cbdbb687002d14caf574caf762f885) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37770c846b1b81c2618282d678b130fc') in 0.042242 seconds
+  Import took 0.054898 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000818 seconds.
+  path: Assets/engines/pikmin/shipV1/ss_blue.png
+  artifactKey: Guid(eaf02228232722a4d9112e54cd20f898) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/engines/pikmin/shipV1/ss_blue.png using Guid(eaf02228232722a4d9112e54cd20f898) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '23279ecc8005f29f7f65be4f744df732') in 0.046636 seconds
+  Import took 0.054598 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000519 seconds.
+  path: Assets/engines/pikmin/shipV1/strip_1.png
+  artifactKey: Guid(dfa7d5271f9d53d4fb04a9a287450cd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/engines/pikmin/shipV1/strip_1.png using Guid(dfa7d5271f9d53d4fb04a9a287450cd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7da422d99346aa5d62cb06b894ef9ab8') in 0.039913 seconds
+  Import took 0.049591 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000529 seconds.
+  path: Assets/engines/pikmin/shipV1/ss_green.png
+  artifactKey: Guid(18724398729968b41a932e718fa50dc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/engines/pikmin/shipV1/ss_green.png using Guid(18724398729968b41a932e718fa50dc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ab68cb95cfb57624a5dbf0bb8e96543') in 0.061945 seconds
+  Import took 0.075143 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000449 seconds.
+  path: Assets/engines/pikmin/shipV1/ss_ship_seat.png
+  artifactKey: Guid(3aab7d596d099a549bd29148153f0c00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/engines/pikmin/shipV1/ss_ship_seat.png using Guid(3aab7d596d099a549bd29148153f0c00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '30806a2577d67ef4384f7e09638284fa') in 0.051051 seconds
+  Import took 0.059184 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000293 seconds.
+  path: Assets/engines/pikmin/shipV1/ss_lgb.png
+  artifactKey: Guid(cec376ee16c60724fb014eccf86f6c47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/engines/pikmin/shipV1/ss_lgb.png using Guid(cec376ee16c60724fb014eccf86f6c47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c0eff0fc7dd196eb0812d0667655a61') in 0.042454 seconds
+  Import took 0.056531 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000543 seconds.
+  path: Assets/engines/pikmin/shipV1/ss_meter_Y.png
+  artifactKey: Guid(9373d0ebd33c3bf40ba0b8196c0cfb64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/engines/pikmin/shipV1/ss_meter_Y.png using Guid(9373d0ebd33c3bf40ba0b8196c0cfb64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5864d61e6c7d4de23d93a8185156f96b') in 0.044562 seconds
+  Import took 0.052280 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000425 seconds.
+  path: Assets/engines/pikmin/shipV1/ss_glass.png
+  artifactKey: Guid(8bb96bae264906c41bb21c37acb5f657) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/engines/pikmin/shipV1/ss_glass.png using Guid(8bb96bae264906c41bb21c37acb5f657) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '014c220191250ace35f520cae962daf7') in 0.044879 seconds
+  Import took 0.052165 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000384 seconds.
+  path: Assets/engines/pikmin/shipV1/ss_vanilla.png.001.png
+  artifactKey: Guid(f4d9afe392999c04880d4b71a3540598) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/engines/pikmin/shipV1/ss_vanilla.png.001.png using Guid(f4d9afe392999c04880d4b71a3540598) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc5cd6eba63aae26de4a3a29f191b443') in 0.042771 seconds
+  Import took 0.050177 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000374 seconds.
+  path: Assets/engines/pikmin/shipV2/stripe_kankyou_s3tc.png
+  artifactKey: Guid(ae60e6499d92b384bb45ef28c9b61ed9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/engines/pikmin/shipV2/stripe_kankyou_s3tc.png using Guid(ae60e6499d92b384bb45ef28c9b61ed9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ea5b426dce7448000dcc46bc28a954f') in 0.045894 seconds
+  Import took 0.055616 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000437 seconds.
+  path: Assets/engines/pikmin/shipV1/ss_ship_interior.png
+  artifactKey: Guid(034c3403b974e56428f0274d13f4b688) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/engines/pikmin/shipV1/ss_ship_interior.png using Guid(034c3403b974e56428f0274d13f4b688) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc6f793b9d31ba373658a9de12880f74') in 0.041165 seconds
+  Import took 0.050303 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000311 seconds.
+  path: Assets/engines/pikmin/shipV2/metal_sabi_mask_i4.png
+  artifactKey: Guid(5cd89654710647b419d2bd0577f09407) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/engines/pikmin/shipV2/metal_sabi_mask_i4.png using Guid(5cd89654710647b419d2bd0577f09407) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b33552630b14e61e3e765e3fd72999de') in 0.045435 seconds
+  Import took 0.052930 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000372 seconds.
+  path: Assets/engines/pikmin/shipV1/strip_3.png
+  artifactKey: Guid(4107c1c675afbae4ca01095f003ffe9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/engines/pikmin/shipV1/strip_3.png using Guid(4107c1c675afbae4ca01095f003ffe9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a4192764835f3fbc22479ade31416a09') in 0.043076 seconds
+  Import took 0.050487 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000403 seconds.
+  path: Assets/engines/pikmin/shipV1/ss_meter_G.png
+  artifactKey: Guid(5cddca44e41ba2f438fd5858bc56a6b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/engines/pikmin/shipV1/ss_meter_G.png using Guid(5cddca44e41ba2f438fd5858bc56a6b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e46161c9141faa97479a1c63e288ea9e') in 0.043165 seconds
+  Import took 0.049810 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000375 seconds.
+  path: Assets/engines/pikmin/shipV1/ss_yro.png
+  artifactKey: Guid(1d8b34ec87e7cd0468b03d59035d0557) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/engines/pikmin/shipV1/ss_yro.png using Guid(1d8b34ec87e7cd0468b03d59035d0557) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa41588cca78916c595a5154bd05119f') in 0.043191 seconds
+  Import took 0.056972 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001177 seconds.
+  path: Assets/engines/pikmin/shipV1/ss_light_green.png
+  artifactKey: Guid(89b374b68a8d87d4385d3b4c77dfd075) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/engines/pikmin/shipV1/ss_light_green.png using Guid(89b374b68a8d87d4385d3b4c77dfd075) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e21e7029dd6f4ca847d9e1af04df1ee') in 0.047256 seconds
+  Import took 0.054472 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000352 seconds.
+  path: Assets/engines/pikmin/shipV1/strip_2.png
+  artifactKey: Guid(9ab5ca500861fda42b4a12f66597460f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/engines/pikmin/shipV1/strip_2.png using Guid(9ab5ca500861fda42b4a12f66597460f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ff396e0c7188332db96bcb03cfb82f9') in 0.044488 seconds
+  Import took 0.051823 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000435 seconds.
+  path: Assets/engines/pikmin/shipV1/ss_black.png
+  artifactKey: Guid(2c06f705490d49840b293fe7ef10a479) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/engines/pikmin/shipV1/ss_black.png using Guid(2c06f705490d49840b293fe7ef10a479) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a5ce4b3681661bcd9cb4ebd1e7b8293d') in 0.045987 seconds
+  Import took 0.057311 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000775 seconds.
+  path: Assets/engines/pikmin/shipV1/ss_grey.png
+  artifactKey: Guid(f965d730e5e0e1a4798e70b7613146ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/engines/pikmin/shipV1/ss_grey.png using Guid(f965d730e5e0e1a4798e70b7613146ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c09495e1989af42d2011e479fd1a4a0') in 0.047110 seconds
+  Import took 0.055358 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000485 seconds.
+  path: Assets/engines/pikmin/shipV1/strip_7.png
+  artifactKey: Guid(7e98955060e13b94c9fa5505c6e0abac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/engines/pikmin/shipV1/strip_7.png using Guid(7e98955060e13b94c9fa5505c6e0abac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3616c7e0b04c639579aab51c2e74ae54') in 0.048428 seconds
+  Import took 0.055229 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000405 seconds.
+  path: Assets/engines/pikmin/shipV2/ufo_s3tc.png
+  artifactKey: Guid(d41186fe3f01b5349812a26dcee9780f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/engines/pikmin/shipV2/ufo_s3tc.png using Guid(d41186fe3f01b5349812a26dcee9780f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc4357bec1216c50e3cceef87b26eb48') in 0.039404 seconds
+  Import took 0.045777 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000362 seconds.
+  path: Assets/engines/pikmin/shipV1/ss_0.png
+  artifactKey: Guid(69d61295ca6172f499a5153c601fb214) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/engines/pikmin/shipV1/ss_0.png using Guid(69d61295ca6172f499a5153c601fb214) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb67c05dfb64cfb1c4d8d74a802baf60') in 0.011354 seconds
+  Import took 0.018381 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000367 seconds.
+  path: Assets/engines/pikmin/shipV1/strip_4.png
+  artifactKey: Guid(55de491ebaf07b3498ed5072971021de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/engines/pikmin/shipV1/strip_4.png using Guid(55de491ebaf07b3498ed5072971021de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac1bb71f6893a2e2ac10261990edc2a7') in 0.045629 seconds
+  Import took 0.056174 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000456 seconds.
+  path: Assets/engines/pikmin/shipV1/strip_5.png
+  artifactKey: Guid(df75d39b74affec4eb8f93d2acb0269c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/engines/pikmin/shipV1/strip_5.png using Guid(df75d39b74affec4eb8f93d2acb0269c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc7f49f35f4c512b3c3a9e152cd9afb3') in 0.039584 seconds
+  Import took 0.048072 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000845 seconds.
+  path: Assets/engines/pikmin/shipV2/sabi_mask_i4_inverted.png
+  artifactKey: Guid(e74f1e1c7e8a6e049903e8f5c6b15787) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/engines/pikmin/shipV2/sabi_mask_i4_inverted.png using Guid(e74f1e1c7e8a6e049903e8f5c6b15787) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '50f8727e890870d673459ec11cf19fc3') in 0.040478 seconds
+  Import took 0.051349 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000383 seconds.
+  path: Assets/engines/pikmin/shipV1/ss_blue_green.png
+  artifactKey: Guid(04a24c350f69fb640a09ca69a575f859) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/engines/pikmin/shipV1/ss_blue_green.png using Guid(04a24c350f69fb640a09ca69a575f859) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '12b59b00b15de13b48a394390ea2a988') in 0.038718 seconds
+  Import took 0.046241 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000641 seconds.
+  path: Assets/engines/pikmin/shipV1/ss_red.png
+  artifactKey: Guid(d0a5f338ba95f74468397c5b8716a024) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/engines/pikmin/shipV1/ss_red.png using Guid(d0a5f338ba95f74468397c5b8716a024) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b2e45e604fb4378ad3b1f5e46f7ed4e2') in 0.037590 seconds
+  Import took 0.044702 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.533806 seconds.
+  path: Assets/engines/pikmin/awakening wood/awakening wood Variant.prefab
+  artifactKey: Guid(3b32d2af8eb35664a972de604eba8336) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/engines/pikmin/awakening wood/awakening wood Variant.prefab using Guid(3b32d2af8eb35664a972de604eba8336) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '24baa56f9f9de82efce4c684e14c9139') in 0.091568 seconds
+  Import took 0.106624 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.295002 seconds.
+  path: Assets/engines/pikmin/awakening wood/0419_01.mat
+  artifactKey: Guid(b96abb92224d1db44b2e5f5eab7047df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/engines/pikmin/awakening wood/0419_01.mat using Guid(b96abb92224d1db44b2e5f5eab7047df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '172f61cf2b51916bacbf519f7778f0ca') in 0.047606 seconds
+  Import took 0.056357 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 148.673580 seconds.
+  path: Assets/engines/pikmin/awakening wood/0427_08.png
+  artifactKey: Guid(3fc00ce3e61ed464fa3b68fdebb2a160) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/engines/pikmin/awakening wood/0427_08.png using Guid(3fc00ce3e61ed464fa3b68fdebb2a160) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c448a08bb7181268f3e0dbee20864e2') in 0.044810 seconds
+  Import took 0.052243 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 22.278892 seconds.
+  path: Assets/engines/pikmin/awakening wood/0427_08.mat
+  artifactKey: Guid(9a8c118fb6c1b124191e8b4182357b90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/engines/pikmin/awakening wood/0427_08.mat using Guid(9a8c118fb6c1b124191e8b4182357b90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ff6936e07f1fcfa7b1021aad1693e6e') in 0.071171 seconds
+  Import took 0.080504 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 26.484837 seconds.
+  path: Assets/engines/pikmin/awakening wood/0427_08.png
+  artifactKey: Guid(3fc00ce3e61ed464fa3b68fdebb2a160) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/engines/pikmin/awakening wood/0427_08.png using Guid(3fc00ce3e61ed464fa3b68fdebb2a160) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '978f8df41ac48460e0a1b4802a54a387') in 0.051905 seconds
+  Import took 0.061515 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 167.121487 seconds.
+  path: Assets/engines/pikmin/forest navel/textures/Tex_0012_0.mat
+  artifactKey: Guid(77baaf52ed9c0dd42bb4923b0b4747ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/engines/pikmin/forest navel/textures/Tex_0012_0.mat using Guid(77baaf52ed9c0dd42bb4923b0b4747ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '148a4b0c956dfb7038aa3799b91cf522') in 0.048301 seconds
+  Import took 0.056018 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 56.561673 seconds.
+  path: Assets/engines/pikmin/forest navel/textures/seam test.mat
+  artifactKey: Guid(35e2af2cb55d6f64d865597d8bb8a4dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/engines/pikmin/forest navel/textures/seam test.mat using Guid(35e2af2cb55d6f64d865597d8bb8a4dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb335b548c7c6b3cd557cb7de122a83a') in 0.048050 seconds
+  Import took 0.055559 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000304 seconds.
+  path: Assets/engines/pikmin/forest navel/textures/Tex_0012_0.mat
+  artifactKey: Guid(77baaf52ed9c0dd42bb4923b0b4747ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/engines/pikmin/forest navel/textures/Tex_0012_0.mat using Guid(77baaf52ed9c0dd42bb4923b0b4747ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9eea5ec775ce87b0dd18fee5cf81fcd3') in 0.064888 seconds
+  Import took 0.071015 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 27.438599 seconds.
+  path: Assets/engines/pikmin/forest navel/textures/seam test graph.shadergraph
+  artifactKey: Guid(1e7ad1162abc83b4da967a76cd40fdef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/engines/pikmin/forest navel/textures/seam test graph.shadergraph using Guid(1e7ad1162abc83b4da967a76cd40fdef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cbb97046bcdb96cae38d2a18a107d91e') in 0.040280 seconds
+  Import took 0.046931 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.201924 seconds.
+  path: Assets/engines/pikmin/forest navel/textures/seam test graph.shadergraph
+  artifactKey: Guid(1e7ad1162abc83b4da967a76cd40fdef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/engines/pikmin/forest navel/textures/seam test graph.shadergraph using Guid(1e7ad1162abc83b4da967a76cd40fdef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cbb97046bcdb96cae38d2a18a107d91e') in 0.033688 seconds
+  Import took 0.041246 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 26.396239 seconds.
+  path: Assets/engines/pikmin/forest navel/textures/seam test graph.shadergraph
+  artifactKey: Guid(1e7ad1162abc83b4da967a76cd40fdef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/engines/pikmin/forest navel/textures/seam test graph.shadergraph using Guid(1e7ad1162abc83b4da967a76cd40fdef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d0f360ea0d4f12347c452140f71d64b') in 0.035827 seconds
+  Import took 0.044335 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 85.666571 seconds.
+  path: Assets/engines/pikmin/forest navel/textures/seam test graph.shadergraph
+  artifactKey: Guid(1e7ad1162abc83b4da967a76cd40fdef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/engines/pikmin/forest navel/textures/seam test graph.shadergraph using Guid(1e7ad1162abc83b4da967a76cd40fdef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2345ab27c093bd22012a8af31c8c225a') in 0.035211 seconds
+  Import took 0.043321 seconds .
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
