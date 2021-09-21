@@ -6,7 +6,192 @@ ModelImporter:
   - first:
       74: 1827226128182048838
     second: Take 001
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Ship_exterior_2
+    second: {fileID: 2100000, guid: fe78243682e76ab49b8e5cd06d62d75a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: af
+    second: {fileID: 2100000, guid: 9ed869f3ed8c26a448434d38d9aadf41, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: af_2
+    second: {fileID: 2100000, guid: d9a35c345e6ae144182912d4b85b3a42, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: battery
+    second: {fileID: 2100000, guid: 3efc593dddd1f0942b99f8ffb2867648, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: black
+    second: {fileID: 2100000, guid: 0c7ec96790f0c964d90a3434979f0f5a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: blue
+    second: {fileID: 2100000, guid: f77874f175a4c4044b4a427d0c00208e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: blue_green
+    second: {fileID: 2100000, guid: a71efa8d253a73b41b22a53d0c77aa79, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: cog_lb
+    second: {fileID: 2100000, guid: 56ea0b88cf907474785b84731754958a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: dark_blue
+    second: {fileID: 2100000, guid: 8593b918b757de54ab3af15aa45ffc67, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: dark_red
+    second: {fileID: 2100000, guid: bf0a1774f983ebe46bf6c4bfd9865b40, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: emit
+    second: {fileID: 2100000, guid: fe7b89e327353cd448d642bb4e78da9f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: green
+    second: {fileID: 2100000, guid: cb7279cca0bf3d9409c7b3067a3c011a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: jet
+    second: {fileID: 2100000, guid: 19d4e28e748ebc84caf5509d36923c0f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: libra
+    second: {fileID: 2100000, guid: 89008de9eac11c64baa1e97bd7ea8237, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: light_blue
+    second: {fileID: 2100000, guid: b8ea45859972ccb4cbac2aabdb0d595e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: light_green
+    second: {fileID: 2100000, guid: 07d9619855870e842b95da448c300aa0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lights_red
+    second: {fileID: 2100000, guid: d8e75ddcc0947ea4a839f1fd0f509a12, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: magenta
+    second: {fileID: 2100000, guid: 92799455a14d1e04f92995fa63bf6241, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: outer_lights_blue
+    second: {fileID: 2100000, guid: 58e5fac7705926146b0f8519c056aa2d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: radiation_canopy
+    second: {fileID: 2100000, guid: 31e97afc10af22e408401f297bb671a2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: red
+    second: {fileID: 2100000, guid: f36c2b10642651a469c0a8f46fbc9d3a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ship_cog_b
+    second: {fileID: 2100000, guid: 7928146f04ae6b449852864d8e23dcb4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ship_cog_y2
+    second: {fileID: 2100000, guid: 9ae9cf0fc7920b74f880fc4bdfdab183, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ship_coglg
+    second: {fileID: 2100000, guid: c5709216dac0b3244a7aec7d5cdea020, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ship_exterior
+    second: {fileID: 2100000, guid: 7456859792d0c0045967608b8178655e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ship_glow
+    second: {fileID: 2100000, guid: 9d4216a9a96ad0c42999376b4a0a8dfe, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ship_grey
+    second: {fileID: 2100000, guid: d513102a3cb23744bbe761d030a96c00, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ship_interior
+    second: {fileID: 2100000, guid: 6b181c2e35e633749a8ec12599794d2e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ship_meter_g
+    second: {fileID: 2100000, guid: b11ff393d238f70499f3986d12603b88, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ship_meter_o
+    second: {fileID: 2100000, guid: 7379eabfacdea754d98c7615b54376a6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ship_meter_y
+    second: {fileID: 2100000, guid: 326b573185590d8499544db4e718e8e4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ship_pink
+    second: {fileID: 2100000, guid: 484ff3d8d88c15a42bb47a5db70e7482, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ship_seat
+    second: {fileID: 2100000, guid: cb86257fd1b92d24b9134fb0efb80503, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ship_wheel
+    second: {fileID: 2100000, guid: 21daf97052de62f4bb424cc8e0e5982f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ship_yellow
+    second: {fileID: 2100000, guid: 4e3efe3813ba5044b8d1293ee84cc1f1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: white
+    second: {fileID: 2100000, guid: e67c5463e3a03a64289d66570f8a9d95, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: yellow_red
+    second: {fileID: 2100000, guid: a0842943556fa8a4abaece23b8668123, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
