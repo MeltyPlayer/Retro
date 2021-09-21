@@ -1,18 +1,33 @@
+using Assets.engines.pikmin.captain.cursor;
+
 using UnityEngine;
 using UnityEngine.Assertions;
 
-namespace Assets.engines.pikmin.olimar {
+namespace Assets.engines.pikmin.captain {
+  [RequireComponent(typeof(CaptainCursorMotor))]
+  [RequireComponent(typeof(CaptainInputController))]
   public class CaptainController : MonoBehaviour, ICaptain {
+    private CaptainState state_;
+
     // Start is called before the first frame update
     public void Start() {
-      this.Cursor = this.gameObject
-                        .GetComponentInChildren<CaptainCursorController>();
-      Assert.IsNotNull(this.Cursor, "Could not find cursor!");
+      var animator = this.GetComponentInChildren<CaptainAnimator>();
+      Assert.IsNotNull(animator, "Animator is null!");
 
-      this.Animator = this.GetComponentInChildren<Animator>();
+      var input = this.GetComponent<CaptainInputController>();
+      Assert.IsNotNull(input, "Input is null!");
 
-      this.gameObject.GetComponent<CaptainInputController>().Motor =
-          this.Motor = new CaptainMotorImpl(this);
+      var motor = this.GetComponent<BCaptainMotor>();
+      Assert.IsNotNull(motor, "Motor is null!");
+
+      this.state_ = new CaptainState {
+          Captain = this,
+          Animator = animator,
+          Motor = motor,
+      };
+
+      input.Init(this.state_);
+      motor.Init(this.state_);
     }
 
     // Update is called once per frame
@@ -20,18 +35,25 @@ namespace Assets.engines.pikmin.olimar {
 
     public Vector3 GlobalPosition => this.transform.position;
     public Vector3 LocalPosition => this.transform.localPosition;
+    
+    public void MovePolar(float direction, float magnitude) {
+      var animator = this.state_.Animator;
 
-    public ICaptainMotor Motor { get; private set; }
+      animator.Direction = direction;
 
-    public ICaptainCursor Cursor { get; private set; }
-    public Animator Animator { get; private set; }
+      if (magnitude > 0) {
+        var maxSpeed = CaptainConstants.WALK_SPEED *
+                       100 *
+                       Time.deltaTime;
 
+        var x = maxSpeed * magnitude * Mathf.Cos(direction * Mathf.Deg2Rad);
+        var y = maxSpeed * magnitude * Mathf.Sin(direction * Mathf.Deg2Rad);
 
-    public void MovePolar(float direction, float distance) {
-      var x = distance * Mathf.Cos(direction * Mathf.Deg2Rad);
-      var y = distance * Mathf.Sin(direction * Mathf.Deg2Rad);
-
-      this.transform.position += new Vector3(x, 0, y);
+        this.transform.position += new Vector3(x, 0, y);
+        animator.RunningMagnitude = magnitude;
+      } else {
+        animator.RunningMagnitude = 0;
+      }
     }
   }
 }

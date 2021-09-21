@@ -1,6 +1,6 @@
 ﻿using UnityEngine;
 
-namespace Assets.engines.pikmin.olimar {
+namespace Assets.engines.pikmin.captain {
   public class CameraController : MonoBehaviour {
     private const float CAMERA_DISTANCE = 100;
     private const float CAMERA_Z_DIRECTION = -17;

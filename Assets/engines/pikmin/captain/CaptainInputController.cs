@@ -1,14 +1,17 @@
-using System;
-
 using UnityEngine;
 
-namespace Assets.engines.pikmin.olimar {
-  public class CaptainInputController : MonoBehaviour {
+namespace Assets.engines.pikmin.captain {
+  public class CaptainInputController : MonoBehaviour, IRequiresCaptainState {
     private Camera camera_;
+    private CaptainState state_;
 
     // Start is called before the first frame update
     public void Start() {
       this.camera_ = Camera.main;
+    }
+
+    public void Init(CaptainState state) {
+      this.state_ = state;
     }
 
     // Update is called once per frame
@@ -26,9 +29,9 @@ namespace Assets.engines.pikmin.olimar {
           Mathf.Sqrt(rawHeldHorizontalAxis * rawHeldHorizontalAxis +
                      rawHeldVerticalAxis * rawHeldVerticalAxis);
 
-      this.Motor?.MovePolar(heldDirection, heldMagnitude);
-    }
+      this.state_.Motor.MovePolar(heldDirection, heldMagnitude);
 
-    public ICaptainMotor Motor { get; set; }
+      // TODO: Handle button clicks.
+    }
   }
 }

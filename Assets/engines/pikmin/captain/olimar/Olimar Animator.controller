@@ -68,7 +68,7 @@ AnimatorStateTransition:
   m_Name: 
   m_Conditions:
   - m_ConditionMode: 3
-    m_ConditionEvent: Magnitude
+    m_ConditionEvent: RunningMagnitude
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: -7280141175108093448}
@@ -108,7 +108,7 @@ AnimatorState:
   m_Motion: {fileID: 8261927633004330358, guid: 1d371a788a57d754498364eb59ec7c73,
     type: 3}
   m_Tag: 
-  m_SpeedParameter: Magnitude
+  m_SpeedParameter: RunningMagnitude
   m_MirrorParameter: 
   m_CycleOffsetParameter: 
   m_TimeParameter: 
@@ -137,7 +137,7 @@ AnimatorState:
   m_Motion: {fileID: -5046146086895010967, guid: 1d371a788a57d754498364eb59ec7c73,
     type: 3}
   m_Tag: 
-  m_SpeedParameter: Magnitude
+  m_SpeedParameter: RunningMagnitude
   m_MirrorParameter: 
   m_CycleOffsetParameter: 
   m_TimeParameter: 
@@ -212,7 +212,7 @@ AnimatorState:
   m_Motion: {fileID: 3395392432939760499, guid: 1d371a788a57d754498364eb59ec7c73,
     type: 3}
   m_Tag: 
-  m_SpeedParameter: Magnitude
+  m_SpeedParameter: RunningMagnitude
   m_MirrorParameter: 
   m_CycleOffsetParameter: 
   m_TimeParameter: 
@@ -225,7 +225,7 @@ AnimatorController:
   m_Name: Olimar Animator
   serializedVersion: 5
   m_AnimatorParameters:
-  - m_Name: Magnitude
+  - m_Name: RunningMagnitude
     m_Type: 1
     m_DefaultFloat: 0
     m_DefaultInt: 0
@@ -266,7 +266,7 @@ AnimatorStateTransition:
   m_Name: 
   m_Conditions:
   - m_ConditionMode: 4
-    m_ConditionEvent: Magnitude
+    m_ConditionEvent: RunningMagnitude
     m_EventTreshold: 0.01
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: -37516421582741418}
@@ -316,7 +316,7 @@ AnimatorStateTransition:
   m_Name: 
   m_Conditions:
   - m_ConditionMode: 3
-    m_ConditionEvent: Magnitude
+    m_ConditionEvent: RunningMagnitude
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: -3673121611380108289}
@@ -363,7 +363,7 @@ AnimatorStateTransition:
   m_Name: 
   m_Conditions:
   - m_ConditionMode: 4
-    m_ConditionEvent: Magnitude
+    m_ConditionEvent: RunningMagnitude
     m_EventTreshold: 0.1
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: -37516421582741418}

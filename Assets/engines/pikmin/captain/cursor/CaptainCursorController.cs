@@ -1,9 +1,7 @@
-using System;
-
 using UnityEngine;
-using UnityEngine.Animations;
+using UnityEngine.Assertions;
 
-namespace Assets.engines.pikmin.olimar {
+namespace Assets.engines.pikmin.captain.cursor {
   public class CaptainCursorController : MonoBehaviour, ICaptainCursor {
     private const float MAX_DISTANCE_ = 7;
     private const float CURSOR_SPEED_ = .25f;
@@ -13,6 +11,7 @@ namespace Assets.engines.pikmin.olimar {
     // Start is called before the first frame update
     public void Start() {
       this.cursorMesh_ = this.transform.GetChild(0).gameObject;
+      Assert.AreEqual(this.cursorMesh_.name, "cursor", "Cursor is not the right object!");
     }
 
     // Update is called once per frame
