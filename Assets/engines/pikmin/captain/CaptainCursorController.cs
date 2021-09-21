@@ -32,11 +32,12 @@ namespace Assets.engines.pikmin.olimar {
         this.UpdatePosition_();
       }
     }
+
     private float distance_;
 
     public float Radius { get; set; }
 
-    public float MovePolar(float direction, float distance) {
+    public CursorDelta MovePolar(float direction, float distance) {
       var initX = this.Distance * Mathf.Cos(this.Direction * Mathf.Deg2Rad);
       var initY = this.Distance * Mathf.Sin(this.Direction * Mathf.Deg2Rad);
 
@@ -49,11 +50,17 @@ namespace Assets.engines.pikmin.olimar {
       var rawNewDistance = Mathf.Sqrt(newX * newX + newY * newY);
 
       this.automaticallyUpdatePosition_ = false;
-      this.Distance = Mathf.Min(rawNewDistance, CaptainCursorController.MAX_DISTANCE_);
+      this.Distance =
+          Mathf.Min(rawNewDistance, CaptainCursorController.MAX_DISTANCE_);
       this.automaticallyUpdatePosition_ = true;
       this.Direction = Mathf.Atan2(newY, newX) * Mathf.Rad2Deg;
 
-      return Mathf.Max(0, rawNewDistance - CaptainCursorController.MAX_DISTANCE_);
+      var remainingDistance =
+          Mathf.Max(0, rawNewDistance - CaptainCursorController.MAX_DISTANCE_);
+      return new CursorDelta {
+          NewDirection = this.Direction,
+          RemainingDistance = remainingDistance,
+      };
     }
 
     private void UpdatePosition_() {

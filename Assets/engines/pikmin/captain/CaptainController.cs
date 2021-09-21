@@ -9,6 +9,8 @@ namespace Assets.engines.pikmin.olimar {
                         .GetComponentInChildren<CaptainCursorController>();
       Assert.IsNotNull(this.Cursor, "Could not find cursor!");
 
+      this.Animator = this.GetComponentInChildren<Animator>();
+
       this.gameObject.GetComponent<CaptainInputController>().Motor =
           this.Motor = new CaptainMotorImpl(this);
     }
@@ -18,11 +20,12 @@ namespace Assets.engines.pikmin.olimar {
 
     public Vector3 GlobalPosition => this.transform.position;
     public Vector3 LocalPosition => this.transform.localPosition;
-    public float Direction => this.transform.rotation.z;
 
     public ICaptainMotor Motor { get; private set; }
 
     public ICaptainCursor Cursor { get; private set; }
+    public Animator Animator { get; private set; }
+
 
     public void MovePolar(float direction, float distance) {
       var x = distance * Mathf.Cos(direction * Mathf.Deg2Rad);

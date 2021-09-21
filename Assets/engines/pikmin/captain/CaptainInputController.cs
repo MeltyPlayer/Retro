@@ -4,8 +4,6 @@ using UnityEngine;
 
 namespace Assets.engines.pikmin.olimar {
   public class CaptainInputController : MonoBehaviour {
-    private const float CURSOR_SPEED_ = .1f;
-
     private Camera camera_;
 
     // Start is called before the first frame update
@@ -26,7 +24,7 @@ namespace Assets.engines.pikmin.olimar {
       var heldDirection = cameraDirection + 180 + rawHeldDirection;
       var heldMagnitude =
           Mathf.Sqrt(rawHeldHorizontalAxis * rawHeldHorizontalAxis +
-                     rawHeldVerticalAxis * rawHeldVerticalAxis) * CURSOR_SPEED_;
+                     rawHeldVerticalAxis * rawHeldVerticalAxis);
 
       this.Motor?.MovePolar(heldDirection, heldMagnitude);
     }
