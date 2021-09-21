@@ -3,7 +3,7 @@
 namespace Assets.engines.pikmin.olimar {
   public class CameraController : MonoBehaviour {
     private const float CAMERA_DISTANCE = 100;
-    private const float CAMERA_Z_DIRECTION = -16;
+    private const float CAMERA_Z_DIRECTION = -17;
 
     private Camera camera_;
 

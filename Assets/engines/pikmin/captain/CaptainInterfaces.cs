@@ -13,7 +13,7 @@ namespace Assets.engines.pikmin.olimar {
   }
 
   public struct CursorDelta {
-    public float RemainingDistance { get; set; }
+    public float RemainingMagnitude { get; set; }
     public float NewDirection { get; set; }
   }
 
@@ -28,7 +28,7 @@ namespace Assets.engines.pikmin.olimar {
     /// <summary>
     ///   Returns the remainder of the distance that couldn't be moved.
     /// </summary>
-    CursorDelta MovePolar(float direction, float distance);
+    CursorDelta MovePolar(float direction, float magnitude);
   }
 
   public interface ICaptainMotor {

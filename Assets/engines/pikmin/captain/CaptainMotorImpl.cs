@@ -1,14 +1,10 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 using UnityEngine;
 
 namespace Assets.engines.pikmin.olimar {
   public class CaptainMotorImpl : ICaptainMotor {
-    private const float CURSOR_SPEED_ = .1f;
+    private const float WALK_SPEED_ = .15f;
 
     private readonly ICaptain captain_;
 
@@ -18,13 +14,17 @@ namespace Assets.engines.pikmin.olimar {
 
     public void MovePolar(float direction, float magnitude) {
       var cursorDelta =
-          this.captain_.Cursor.MovePolar(direction, magnitude * CURSOR_SPEED_);
+          this.captain_.Cursor.MovePolar(direction, magnitude);
 
       var newDirection = cursorDelta.NewDirection;
-      var remainingDistance = cursorDelta.RemainingDistance;
+      var remainingMagnitude = cursorDelta.RemainingMagnitude;
 
-      if (remainingDistance > 0) {
-        this.captain_.MovePolar(newDirection, remainingDistance);
+      if (remainingMagnitude > 0) {
+        this.captain_.MovePolar(newDirection,
+                                remainingMagnitude *
+                                CaptainMotorImpl.WALK_SPEED_ *
+                                100 *
+                                Time.deltaTime);
 
         this.captain_.Animator.gameObject.transform.rotation =
             Quaternion.AngleAxis(-newDirection + 90, Vector3.up);
@@ -32,8 +32,6 @@ namespace Assets.engines.pikmin.olimar {
       } else {
         this.captain_.Animator.SetFloat("Magnitude", 0);
       }
-
-      Debug.Log(this.captain_.Animator.GetFloat("Magnitude"));
     }
 
     public void PressAction() {
