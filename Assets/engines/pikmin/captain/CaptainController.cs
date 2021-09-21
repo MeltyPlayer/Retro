@@ -4,7 +4,7 @@ using UnityEngine;
 using UnityEngine.Assertions;
 
 namespace Assets.engines.pikmin.captain {
-  [RequireComponent(typeof(CaptainCursorMotor))]
+  [RequireComponent(typeof(BCaptainMovement))]
   [RequireComponent(typeof(CaptainInputController))]
   public class CaptainController : MonoBehaviour, ICaptain {
     private CaptainState state_;
@@ -17,13 +17,13 @@ namespace Assets.engines.pikmin.captain {
       var input = this.GetComponent<CaptainInputController>();
       Assert.IsNotNull(input, "Input is null!");
 
-      var motor = this.GetComponent<BCaptainMotor>();
+      var motor = this.GetComponent<BCaptainMovement>();
       Assert.IsNotNull(motor, "Motor is null!");
 
       this.state_ = new CaptainState {
           Captain = this,
           Animator = animator,
-          Motor = motor,
+          Movement = motor,
       };
 
       input.Init(this.state_);

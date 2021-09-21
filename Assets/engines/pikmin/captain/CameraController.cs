@@ -5,6 +5,9 @@ namespace Assets.engines.pikmin.captain {
     private const float CAMERA_DISTANCE = 100;
     private const float CAMERA_Z_DIRECTION = -17;
 
+    // TODO: If still, pressing left trigger rotates towards the cursor, not the player.
+    // TODO: Holding left trigger rotates w/ player movement, based on x component of horizontal
+
     private Camera camera_;
 
     private float direction_;
@@ -22,11 +25,16 @@ namespace Assets.engines.pikmin.captain {
               Mathf.Sin(this.direction_ * Mathf.Deg2Rad);
       var z = CAMERA_DISTANCE * Mathf.Sin(CAMERA_Z_DIRECTION * Mathf.Deg2Rad);
 
-      var toPosition = this.transform.position;
-      var fromPosition = toPosition - new Vector3(x, z, y);
+      var delta = new Vector3(x, z, y);
 
-      this.camera_.transform.position = fromPosition;
-      this.camera_.transform.LookAt(toPosition);
+      var toPosition = this.transform.position;
+      var fromPosition = toPosition - delta;
+
+      this.camera_.transform.position =
+          Vector3.Lerp(this.camera_.transform.position,
+                       fromPosition,
+                       .05f * Time.deltaTime * 100);
+      this.camera_.transform.LookAt(this.camera_.transform.position + delta);
     }
   }
 }

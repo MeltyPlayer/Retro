@@ -29,7 +29,7 @@ namespace Assets.engines.pikmin.captain {
           Mathf.Sqrt(rawHeldHorizontalAxis * rawHeldHorizontalAxis +
                      rawHeldVerticalAxis * rawHeldVerticalAxis);
 
-      this.state_.Motor.MovePolar(heldDirection, heldMagnitude);
+      this.state_.Movement.MovePolar(heldDirection, heldMagnitude);
 
       // TODO: Handle button clicks.
     }

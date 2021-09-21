@@ -3,8 +3,8 @@ using UnityEngine.Assertions;
 
 namespace Assets.engines.pikmin.captain.cursor {
   public class CaptainCursorController : MonoBehaviour, ICaptainCursor {
-    private const float MAX_DISTANCE_ = 7;
-    private const float CURSOR_SPEED_ = .25f;
+    private const float MAX_DISTANCE_ = 15;
+    private const float CURSOR_SPEED_ = .5f;
 
     private GameObject cursorMesh_;
 
