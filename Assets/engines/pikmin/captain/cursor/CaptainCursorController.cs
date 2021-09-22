@@ -3,15 +3,14 @@ using UnityEngine.Assertions;
 
 namespace Assets.engines.pikmin.captain.cursor {
   public class CaptainCursorController : MonoBehaviour, ICaptainCursor {
-    private const float MAX_DISTANCE_ = 15;
-    private const float CURSOR_SPEED_ = .5f;
-
     private GameObject cursorMesh_;
 
     // Start is called before the first frame update
     public void Start() {
       this.cursorMesh_ = this.transform.GetChild(0).gameObject;
-      Assert.AreEqual(this.cursorMesh_.name, "cursor", "Cursor is not the right object!");
+      Assert.AreEqual(this.cursorMesh_.name,
+                      "cursor",
+                      "Cursor is not the right object!");
     }
 
     // Update is called once per frame
@@ -25,13 +24,11 @@ namespace Assets.engines.pikmin.captain.cursor {
     public float Direction { get; set; }
     public float Distance { get; set; }
 
-    public float Radius { get; set; }
-
     public CursorDelta MovePolar(float direction, float magnitude) {
       var initX = this.Distance * Mathf.Cos(this.Direction * Mathf.Deg2Rad);
       var initY = this.Distance * Mathf.Sin(this.Direction * Mathf.Deg2Rad);
 
-      var maxSpeed = CaptainCursorController.CURSOR_SPEED_ *
+      var maxSpeed = CaptainCursorConstants.CURSOR_SPEED *
                      100 *
                      Time.deltaTime;
       var speed = magnitude * maxSpeed;
@@ -44,12 +41,12 @@ namespace Assets.engines.pikmin.captain.cursor {
       var rawNewDistance = Mathf.Sqrt(newX * newX + newY * newY);
 
       this.Distance =
-          Mathf.Min(rawNewDistance, CaptainCursorController.MAX_DISTANCE_);
+          Mathf.Min(rawNewDistance, CaptainCursorConstants.MAX_DISTANCE);
       this.Direction = Mathf.Atan2(newY, newX) * Mathf.Rad2Deg;
 
       var remainingMagnitude =
           Mathf.Max(0,
-                    (rawNewDistance - CaptainCursorController.MAX_DISTANCE_) /
+                    (rawNewDistance - CaptainCursorConstants.MAX_DISTANCE) /
                     maxSpeed);
 
       return new CursorDelta {

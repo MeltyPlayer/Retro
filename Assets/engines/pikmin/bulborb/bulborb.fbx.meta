@@ -1,88 +1,245 @@
 fileFormatVersion: 2
 guid: 0b55ae98f76e90843ac91ec6f1de29ca
 ModelImporter:
-  serializedVersion: 23
-  fileIDToRecycleName:
-    100000: ago
-    100002: Armature
-    100004: asiL
-    100006: asiL_end
-    100008: asiR
-    100010: asiR_end
-    100012: body
-    100014: //RootNode
-    100016: head
-    100018: hip
-    100020: hip_end
-    100022: kamu1
-    100024: kamu1_end
-    100026: kamu2
-    100028: kamu2_end
-    100030: kamu3
-    100032: kamu3_end
-    100034: kamu4
-    100036: kamu4_end
-    100038: kamu5
-    100040: kamu5_end
-    100042: kosi
-    100044: leye
-    100046: leye_end
-    100048: Mesh_0
-    100050: regL_momo
-    100052: regL_sune
-    100054: regR_momo
-    100056: regR_sune
-    100058: reye
-    100060: reye_end
-    400000: ago
-    400002: Armature
-    400004: asiL
-    400006: asiL_end
-    400008: asiR
-    400010: asiR_end
-    400012: body
-    400014: //RootNode
-    400016: head
-    400018: hip
-    400020: hip_end
-    400022: kamu1
-    400024: kamu1_end
-    400026: kamu2
-    400028: kamu2_end
-    400030: kamu3
-    400032: kamu3_end
-    400034: kamu4
-    400036: kamu4_end
-    400038: kamu5
-    400040: kamu5_end
-    400042: kosi
-    400044: leye
-    400046: leye_end
-    400048: Mesh_0
-    400050: regL_momo
-    400052: regL_sune
-    400054: regR_momo
-    400056: regR_sune
-    400058: reye
-    400060: reye_end
-    2100000: atama_2
-    2100002: osiri_1_2
-    4300000: Mesh_0
-    7400000: Armature|attack_Armature
-    7400002: Armature|dead_Armature
-    7400004: Armature|flick_Armature
-    7400006: Armature|move1_Armature
-    7400008: Armature|rebirth_Armature
-    7400010: Armature|type1_Armature
-    7400012: Armature|type5_Armature
-    7400014: Armature|wait2_Armature
-    7400016: Armature|waitact1_Armature
-    7400018: Armature|waitact2_Armature
-    9500000: //RootNode
-    13700000: Mesh_0
+  serializedVersion: 20200
+  internalIDToNameTable:
+  - first:
+      1: 100000
+    second: ago
+  - first:
+      1: 100002
+    second: Armature
+  - first:
+      1: 100004
+    second: asiL
+  - first:
+      1: 100006
+    second: asiL_end
+  - first:
+      1: 100008
+    second: asiR
+  - first:
+      1: 100010
+    second: asiR_end
+  - first:
+      1: 100012
+    second: body
+  - first:
+      1: 100014
+    second: //RootNode
+  - first:
+      1: 100016
+    second: head
+  - first:
+      1: 100018
+    second: hip
+  - first:
+      1: 100020
+    second: hip_end
+  - first:
+      1: 100022
+    second: kamu1
+  - first:
+      1: 100024
+    second: kamu1_end
+  - first:
+      1: 100026
+    second: kamu2
+  - first:
+      1: 100028
+    second: kamu2_end
+  - first:
+      1: 100030
+    second: kamu3
+  - first:
+      1: 100032
+    second: kamu3_end
+  - first:
+      1: 100034
+    second: kamu4
+  - first:
+      1: 100036
+    second: kamu4_end
+  - first:
+      1: 100038
+    second: kamu5
+  - first:
+      1: 100040
+    second: kamu5_end
+  - first:
+      1: 100042
+    second: kosi
+  - first:
+      1: 100044
+    second: leye
+  - first:
+      1: 100046
+    second: leye_end
+  - first:
+      1: 100048
+    second: Mesh_0
+  - first:
+      1: 100050
+    second: regL_momo
+  - first:
+      1: 100052
+    second: regL_sune
+  - first:
+      1: 100054
+    second: regR_momo
+  - first:
+      1: 100056
+    second: regR_sune
+  - first:
+      1: 100058
+    second: reye
+  - first:
+      1: 100060
+    second: reye_end
+  - first:
+      4: 400000
+    second: ago
+  - first:
+      4: 400002
+    second: Armature
+  - first:
+      4: 400004
+    second: asiL
+  - first:
+      4: 400006
+    second: asiL_end
+  - first:
+      4: 400008
+    second: asiR
+  - first:
+      4: 400010
+    second: asiR_end
+  - first:
+      4: 400012
+    second: body
+  - first:
+      4: 400014
+    second: //RootNode
+  - first:
+      4: 400016
+    second: head
+  - first:
+      4: 400018
+    second: hip
+  - first:
+      4: 400020
+    second: hip_end
+  - first:
+      4: 400022
+    second: kamu1
+  - first:
+      4: 400024
+    second: kamu1_end
+  - first:
+      4: 400026
+    second: kamu2
+  - first:
+      4: 400028
+    second: kamu2_end
+  - first:
+      4: 400030
+    second: kamu3
+  - first:
+      4: 400032
+    second: kamu3_end
+  - first:
+      4: 400034
+    second: kamu4
+  - first:
+      4: 400036
+    second: kamu4_end
+  - first:
+      4: 400038
+    second: kamu5
+  - first:
+      4: 400040
+    second: kamu5_end
+  - first:
+      4: 400042
+    second: kosi
+  - first:
+      4: 400044
+    second: leye
+  - first:
+      4: 400046
+    second: leye_end
+  - first:
+      4: 400048
+    second: Mesh_0
+  - first:
+      4: 400050
+    second: regL_momo
+  - first:
+      4: 400052
+    second: regL_sune
+  - first:
+      4: 400054
+    second: regR_momo
+  - first:
+      4: 400056
+    second: regR_sune
+  - first:
+      4: 400058
+    second: reye
+  - first:
+      4: 400060
+    second: reye_end
+  - first:
+      21: 2100000
+    second: atama_2
+  - first:
+      21: 2100002
+    second: osiri_1_2
+  - first:
+      43: 4300000
+    second: Mesh_0
+  - first:
+      74: 7400000
+    second: Armature|attack_Armature
+  - first:
+      74: 7400002
+    second: Armature|dead_Armature
+  - first:
+      74: 7400004
+    second: Armature|flick_Armature
+  - first:
+      74: 7400006
+    second: Armature|move1_Armature
+  - first:
+      74: 7400008
+    second: Armature|rebirth_Armature
+  - first:
+      74: 7400010
+    second: Armature|type1_Armature
+  - first:
+      74: 7400012
+    second: Armature|type5_Armature
+  - first:
+      74: 7400014
+    second: Armature|wait2_Armature
+  - first:
+      74: 7400016
+    second: Armature|waitact1_Armature
+  - first:
+      74: 7400018
+    second: Armature|waitact2_Armature
+  - first:
+      95: 9500000
+    second: //RootNode
+  - first:
+      137: 13700000
+    second: Mesh_0
+  - first:
+      74: -8427052593175619832
+    second: Sleeping Loop
   externalObjects: {}
   materials:
-    importMaterials: 1
+    materialImportMode: 1
     materialName: 0
     materialSearch: 1
     materialLocation: 1
@@ -107,7 +264,326 @@ ModelImporter:
     animationWrapMode: 0
     extraExposedTransformPaths: []
     extraUserProperties: []
-    clipAnimations: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Armature|attack_Armature
+      takeName: Armature|attack_Armature
+      internalID: 0
+      firstFrame: 0
+      lastFrame: 47
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Armature|dead_Armature
+      takeName: Armature|dead_Armature
+      internalID: 0
+      firstFrame: 0
+      lastFrame: 47
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Armature|flick_Armature
+      takeName: Armature|flick_Armature
+      internalID: 0
+      firstFrame: 0
+      lastFrame: 63
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Armature|move1_Armature
+      takeName: Armature|move1_Armature
+      internalID: 0
+      firstFrame: 0
+      lastFrame: 39
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Armature|rebirth_Armature
+      takeName: Armature|rebirth_Armature
+      internalID: 0
+      firstFrame: 0
+      lastFrame: 84
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Armature|type1_Armature
+      takeName: Armature|type1_Armature
+      internalID: 0
+      firstFrame: 0
+      lastFrame: 143
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Armature|type5_Armature
+      takeName: Armature|type5_Armature
+      internalID: 0
+      firstFrame: 0
+      lastFrame: 32
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Armature|wait2_Armature
+      takeName: Armature|wait2_Armature
+      internalID: 0
+      firstFrame: 0
+      lastFrame: 19
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Armature|waitact1_Armature
+      takeName: Armature|waitact1_Armature
+      internalID: 0
+      firstFrame: 0
+      lastFrame: 19
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Armature|waitact2_Armature
+      takeName: Armature|waitact2_Armature
+      internalID: 0
+      firstFrame: 0
+      lastFrame: 39
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Sleeping Loop
+      takeName: Armature|type1_Armature
+      internalID: 0
+      firstFrame: 60
+      lastFrame: 103
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
     isReadable: 1
   meshes:
     lODScreenPercentages: []
@@ -115,25 +591,32 @@ ModelImporter:
     meshCompression: 0
     addColliders: 0
     useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
     importVisibility: 1
     importBlendShapes: 1
     importCameras: 1
     importLights: 1
+    fileIdsGeneration: 1
     swapUVChannels: 0
     generateSecondaryUV: 0
     useFileUnits: 1
-    optimizeMeshForGPU: 1
     keepQuads: 0
     weldVertices: 1
+    bakeAxisConversion: 0
     preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    meshOptimizationFlags: -1
     indexFormat: 0
     secondaryUVAngleDistortion: 8
     secondaryUVAreaDistortion: 15.000001
     secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 0
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
     secondaryUVPackMargin: 4
     useFileScale: 1
-    previousCalculatedGlobalScale: 0.01
-    hasPreviousCalculatedGlobalScale: 1
   tangentSpace:
     normalSmoothAngle: 60
     normalImportMode: 0
@@ -142,10 +625,10 @@ ModelImporter:
     legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
     blendShapeNormalImportMode: 1
     normalSmoothingSource: 0
+  referencedClips: []
   importAnimation: 1
-  copyAvatar: 0
   humanDescription:
-    serializedVersion: 2
+    serializedVersion: 3
     human: []
     skeleton: []
     armTwist: 0.5
@@ -155,13 +638,17 @@ ModelImporter:
     armStretch: 0.05
     legStretch: 0.05
     feetSpacing: 0
+    globalScale: 1
     rootMotionBoneName: 
     hasTranslationDoF: 0
     hasExtraRoot: 0
     skeletonHasParents: 1
   lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
   animationType: 2
   humanoidOversampling: 1
+  avatarSetup: 1
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 0
   additionalBone: 0
   userData: 
   assetBundleName: 

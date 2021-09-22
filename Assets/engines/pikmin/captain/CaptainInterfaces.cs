@@ -10,19 +10,19 @@ namespace Assets.engines.pikmin.captain {
   }
 
 
-  public struct CaptainState {
+  public struct CaptainStateBundle {
     public ICaptain Captain { get; set; }
-    public BCaptainMovement Movement { get; set; }
+    public BCaptainMovementController MovementController { get; set; }
     public ICaptainAnimator Animator { get; set; }
   }
 
   public interface IRequiresCaptainState {
-    void Init(CaptainState state);
+    void Init(CaptainStateBundle stateBundle);
   }
 
 
-  public abstract class BCaptainMovement : MonoBehaviour, IRequiresCaptainState {
-    public abstract void Init(CaptainState state);
+  public abstract class BCaptainMovementController : MonoBehaviour, IRequiresCaptainState {
+    public abstract void Init(CaptainStateBundle stateBundle);
  
     public abstract void MovePolar(float direction, float magnitude);
 
@@ -41,6 +41,12 @@ namespace Assets.engines.pikmin.captain {
     public abstract void ThrowPikmin(Vector3 target);
     */
   }
+
+
+  public abstract class BCaptainPikminInteractionController {
+
+  }
+
 
   public interface ICaptainAnimator {
     float Direction { get; set; }

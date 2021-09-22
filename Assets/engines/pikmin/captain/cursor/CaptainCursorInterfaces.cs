@@ -12,7 +12,6 @@ namespace Assets.engines.pikmin.captain.cursor {
 
     float Direction { get; set; }
     float Distance { get; set; }
-    float Radius { get; set; }
 
     /// <summary>
     ///   Returns the remainder of the distance that couldn't be moved.

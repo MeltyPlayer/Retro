@@ -5,26 +5,30 @@ using UnityEngine;
 using UnityEngine.Assertions;
 
 namespace Assets.engines.pikmin.captain {
-  [RequireComponent(typeof(BCaptainMovement))]
-  [RequireComponent(typeof(CaptainInputController))]
+  [RequireComponent(typeof(BCaptainMovementController))]
+  [RequireComponent(typeof(CaptainGamepadInputController))]
+  [RequireComponent(typeof(Rigidbody))]
   public class CaptainController : MonoBehaviour, ICaptain {
-    private CaptainState state_;
+    private CaptainStateBundle state_;
+    private Rigidbody rigidbody_;
 
     // Start is called before the first frame update
     public void Start() {
       var animator = this.GetComponentInChildren<CaptainAnimator>();
       Assert.IsNotNull(animator, "Animator is null!");
 
-      var input = this.GetComponent<CaptainInputController>();
+      var input = this.GetComponent<CaptainGamepadInputController>();
       Assert.IsNotNull(input, "Input is null!");
 
-      var motor = this.GetComponent<BCaptainMovement>();
+      var motor = this.GetComponent<BCaptainMovementController>();
       Assert.IsNotNull(motor, "Motor is null!");
 
-      this.state_ = new CaptainState {
+      this.rigidbody_ = this.GetComponent<Rigidbody>();
+
+      this.state_ = new CaptainStateBundle {
           Captain = this,
           Animator = animator,
-          Movement = motor,
+          MovementController = motor,
       };
 
       input.Init(this.state_);
@@ -51,13 +55,16 @@ namespace Assets.engines.pikmin.captain {
                                   .1f * 100 * Time.deltaTime);
 
         // Moves player.
-        var maxSpeed = CaptainConstants.WALK_SPEED *
-                       100 *
-                       Time.deltaTime;
+        var maxSpeed = CaptainConstants.WALK_SPEED;
         var x = maxSpeed * magnitude * Mathf.Cos(direction * Mathf.Deg2Rad);
         var y = maxSpeed * magnitude * Mathf.Sin(direction * Mathf.Deg2Rad);
 
-        this.transform.position += new Vector3(x, 0, y);
+        var scale = 130;
+        var velocity = this.rigidbody_.velocity;
+        velocity.x = x * scale;
+        velocity.z = y * scale;
+        this.rigidbody_.velocity = velocity;
+
         animator.RunningMagnitude = magnitude;
       } else {
         animator.RunningMagnitude = 0;
