@@ -10,7 +10,7 @@ namespace Assets.engines.pikmin.captain {
     }
 
     public float Direction {
-      get => this.transform.eulerAngles.y;
+      get => -(this.transform.eulerAngles.y - 90);
       set => this.transform.rotation =
                  Quaternion.AngleAxis(-value + 90, Vector3.up);
     }
@@ -18,6 +18,11 @@ namespace Assets.engines.pikmin.captain {
     public float RunningMagnitude {
       get => this.impl_.GetFloat("RunningMagnitude");
       set => this.impl_.SetFloat("RunningMagnitude", value);
+    }
+
+    public float WalkingInPlaceMagnitude {
+      get => this.impl_.GetFloat("WalkingInPlaceMagnitude");
+      set => this.impl_.SetFloat("WalkingInPlaceMagnitude", value);
     }
   }
 }

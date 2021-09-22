@@ -6,6 +6,7 @@ namespace Assets.engines.pikmin.captain {
     Vector3 LocalPosition { get; }
 
     void MovePolar(float direction, float magnitude);
+    void FaceTowards(float direction, float magnitude);
   }
 
 
@@ -44,5 +45,6 @@ namespace Assets.engines.pikmin.captain {
   public interface ICaptainAnimator {
     float Direction { get; set; }
     float RunningMagnitude { get; set; }
+    float WalkingInPlaceMagnitude { get; set; }
   }
 }

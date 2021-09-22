@@ -24,7 +24,7 @@
         // TODO: Player walks in place towards the cursor if less than cutoff
         // TODO: Rotates player towards stick more quickly than cursor moves
         // TODO: After a second of inaction, the player turns back towards the cursor.
-        this.state_.Captain.MovePolar(cursorDelta.NewDirection, 0);
+        this.state_.Captain.FaceTowards(cursorDelta.NewDirection, magnitude);
       } else {
         this.state_.Captain.MovePolar(direction, magnitude);
       }
